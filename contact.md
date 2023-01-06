@@ -1,0 +1,35 @@
+---
+title: 				Contact
+layout: 			full-width
+first-heading:      Contact Us
+description:        Add a meta description for this page
+banner:             true
+banner-content:     "<p>Cybersecurity at the A&M System is an individual and collective effort of our members. It is necessary for us to work together, sharing resources and information assets.</p>"
+banner-bg:          "/assets/images/banners/contact-header-background-full.jpg"
+banner-icon:        "/assets/images/icons/collaboration.webp"
+---
+
+## How to Contact Us
+
+All Texas A&amp;M System Cybersecurity departments may be reached through the contact information below.
+
+_Review the [Traffic Light Protocol FAQ](https://us-cert.cisa.gov/tlp/) for information about how TAMUS Cybersecurity manages sensitive information._
+
+### Phone
+
+[+1.979.234.0030](tel:+19792340030)
+
+### Email
+
+[contact@cyber.tamus.edu](mailto:contact@cyber.tamus.edu)
+
+### PGP/GPG Key
+
+PGP/GPG Key: `0x9561479D` [[Primary @ Ubuntu](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8be54e1c1d48434f4a551879ff77468c9561479d)] [[Backup @ OpenPGP](https://keys.openpgp.org/vks/v1/by-fingerprint/8BE54E1C1D48434F4A551879FF77468C9561479D)]<br />
+Fingerprint: `8BE5 4E1C 1D48 434F 4A55  1879 FF77 468C 9561 479D`
+
+### Postal Address
+
+TAMUS Cybersecurity<br />
+1370 TAMU<br />
+College Station, Texas 77843-1370
