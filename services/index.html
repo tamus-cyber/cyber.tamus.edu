@@ -10,26 +10,27 @@ banner-icon:        "/assets/images/icons/services-icon.svg"
 ---
 
 <div class="row cards">
-	<div class="col-12 col-md-6 card card-0">
-		<h3>Cybersecurity Operations</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum et metus nec gravida. Sed et enim eget ligula bibendum ultricies vulputate a ex. Vivamus faucibus cursus leo, ac consequat libero accumsan at. Donec lacinia ligula dui, eget consequat purus pharetra ullamcorper. Suspendisse eget purus urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras dapibus fermentum odio non gravida. Nunc eget lectus metus. Phasellus aliquet nunc nibh, id vestibulum nisi congue vitae. Vivamus sollicitudin sollicitudin massa, at consequat dolor bibendum vel. Quisque volutpat lacinia ligula vel sollicitudin. Quisque dui dolor, vestibulum ut accumsan vel, semper a elit. Proin ornare erat nunc, nec sodales leo dictum non. Quisque varius fermentum urna, sit amet vulputate metus tempor a.</p>
-		<p class="text-end"><a href="cyber-ops">Read more about Cybersecurity Operations ></a></p>
-	</div>
+	{% capture card_content %}
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum et metus nec gravida. Sed et enim eget ligula bibendum ultricies vulputate a ex. Vivamus faucibus cursus leo, ac consequat libero accumsan at. Donec lacinia ligula dui, eget consequat purus pharetra ullamcorper. Suspendisse eget purus urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 
-	<div class="col-12 col-md-6 card card-1">
-		<h3>Cyber Threat Intelligence</h3>
-		<p>Donec vitae nunc eleifend, laoreet ex at, lobortis ligula. Proin vitae venenatis metus. Suspendisse ornare quam in finibus egestas. Morbi vehicula ullamcorper velit ullamcorper vulputate. Sed sed dolor in tortor porttitor lacinia id vitae ex. Vestibulum rutrum tortor est, vitae venenatis lacus placerat sed. Quisque dui mi, dapibus in pellentesque vitae, varius eget purus. Donec porta tincidunt risus feugiat ultrices. Suspendisse rutrum vestibulum diam a maximus. Nunc dignissim ultrices felis, eget bibendum risus finibus et. Nunc quis nibh vulputate, ullamcorper tortor vitae, interdum dolor. In dolor nunc, consequat id ex eu, pellentesque placerat mauris. Nam ac risus hendrerit sapien vestibulum volutpat egestas vel lectus. Duis sit amet tortor a metus mattis bibendum varius sit amet elit.</p>
-	</div>
+	<p>Cras dapibus fermentum odio non gravida. Nunc eget lectus metus. Phasellus aliquet nunc nibh, id vestibulum nisi congue vitae. Vivamus sollicitudin sollicitudin massa, at consequat dolor bibendum vel. Quisque volutpat lacinia ligula vel sollicitudin. Quisque dui dolor, vestibulum ut accumsan vel, semper a elit. Proin ornare erat nunc, nec sodales leo dictum non. Quisque varius fermentum urna, sit amet vulputate metus tempor a.</p>
+	{% endcapture %}
+	{% include card.html color="card-0" title="Cybersecurity Operations" read_more_url="cyber-ops" content=card_content %}
+
+	{% capture card_content %}
+	<p>Donec vitae nunc eleifend, laoreet ex at, lobortis ligula. Proin vitae venenatis metus. Suspendisse ornare quam in finibus egestas. Morbi vehicula ullamcorper velit ullamcorper vulputate. Sed sed dolor in tortor porttitor lacinia id vitae ex. Vestibulum rutrum tortor est, vitae venenatis lacus placerat sed. Quisque dui mi, dapibus in pellentesque vitae, varius eget purus. Donec porta tincidunt risus feugiat ultrices. Suspendisse rutrum vestibulum diam a maximus. Nunc dignissim ultrices felis, eget bibendum risus finibus et. Nunc quis nibh vulputate, ullamcorper tortor vitae, interdum dolor. In dolor nunc, consequat id ex eu, pellentesque placerat mauris. Nam ac risus hendrerit sapien vestibulum volutpat egestas vel lectus. Duis sit amet tortor a metus mattis bibendum varius sit amet elit.</p>
+	{% endcapture %}
+	{% include card.html color="card-1" title="Cyber Threat Intelligence" read_more_url="cyber-threat-intel" content=card_content %}
 </div>
 
 <div class="row cards">
-	<div class="col-12 col-md-6 card card-2">
-		<h3>Consulting</h3>
-		<p>Nunc ultricies posuere neque, in egestas eros. Nam dignissim velit ac ultricies posuere. Donec ut mauris porttitor, rhoncus tortor eu, fermentum leo. Maecenas vel tellus ante. Sed tempus nec sapien eu elementum. Proin interdum facilisis pretium. Suspendisse ut rhoncus lectus. Maecenas sed maximus libero. Maecenas nec diam augue. Fusce vel velit sed nunc rutrum accumsan vel in eros. Ut felis magna, ultrices eu tristique porttitor, aliquet vel mi.</p>
-	</div>
+	{% capture card_content %}
+	<p>Nunc ultricies posuere neque, in egestas eros. Nam dignissim velit ac ultricies posuere. Donec ut mauris porttitor, rhoncus tortor eu, fermentum leo. Maecenas vel tellus ante. Sed tempus nec sapien eu elementum. Proin interdum facilisis pretium. Suspendisse ut rhoncus lectus. Maecenas sed maximus libero. Maecenas nec diam augue. Fusce vel velit sed nunc rutrum accumsan vel in eros. Ut felis magna, ultrices eu tristique porttitor, aliquet vel mi.</p>
+	{% endcapture %}
+	{% include card.html color="card-2" title="Consulting" content=card_content %}
 
-	<div class="col-12 col-md-6 card card-3">
-		<h3>Widget Making</h3>
-		<p>Mauris quis mauris mauris. Suspendisse tincidunt euismod ligula et ultricies. Fusce pulvinar laoreet leo imperdiet venenatis. Mauris porta nulla vel lorem viverra dictum. Nulla sem erat, volutpat eu aliquam a, efficitur vel sapien. Vestibulum sagittis lectus nibh, vel posuere mi facilisis quis. Duis ullamcorper, eros porta suscipit placerat, ipsum augue pretium libero, sed consectetur purus tortor nec diam. Nullam ultricies sem non nibh faucibus, id tristique quam tempor.</p>
-	</div>
+	{% capture card_content %}
+	<p>Mauris quis mauris mauris. Suspendisse tincidunt euismod ligula et ultricies. Fusce pulvinar laoreet leo imperdiet venenatis. Mauris porta nulla vel lorem viverra dictum. Nulla sem erat, volutpat eu aliquam a, efficitur vel sapien. Vestibulum sagittis lectus nibh, vel posuere mi facilisis quis. Duis ullamcorper, eros porta suscipit placerat, ipsum augue pretium libero, sed consectetur purus tortor nec diam. Nullam ultricies sem non nibh faucibus, id tristique quam tempor.</p>
+	{% endcapture %}
+	{% include card.html color="card-3" title="Widget Making" content=card_content %}
 </div>
