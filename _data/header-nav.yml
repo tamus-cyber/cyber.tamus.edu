@@ -5,6 +5,11 @@ nav-items:
   - title: Services
     url: /services
     id: services-link
+    subfolderitems:
+      - page: Cybersecurity Operations
+        url: /services/cyber-ops
+      - page: Cyber Threat Intelligence
+        url: /services/cyber-threat-intel
   - title: Policy
     url: /policy
     id: policy-link

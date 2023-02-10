@@ -4,7 +4,7 @@ title:              Policy
 first-heading:      Policy
 description:        Add a meta description for this page
 banner:             true
-banner-content:     "<p>Cybersecurity at the A&M System is an individual and collective effort of our members. It is necessary for us to work together, sharing resources and information assets.</p>"
+banner-content:     "<p>Texas A&amp;M System Cybersecurity leads the system's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our stakeholders to help them ensure a secure and resilient infrastructure.</p>"
 banner-bg:          "/assets/images/banners/governance-header-background-full.jpg"
 banner-icon:        "/assets/images/icons/policy-icon.svg"
 ---
