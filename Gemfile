@@ -37,3 +37,5 @@ gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-toc", "~> 0.17.1"
 
 gem "jekyll-remote-theme", "~> 0.4.3"
+
+gem "faraday-retry", "~> 2.2.0"
