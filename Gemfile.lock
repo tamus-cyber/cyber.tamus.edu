@@ -64,13 +64,11 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.8.4)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    nokogiri (1.13.10)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.10-arm64-darwin)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -93,12 +91,12 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  arm64-darwin-23
 
 DEPENDENCIES
   faraday-retry (~> 2.2.0)
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.1)
-  jekyll-feed (~> 0.12)
   jekyll-remote-theme (~> 0.4.3)
   jekyll-sitemap (~> 1.4)
   jekyll-toc (~> 0.17.1)

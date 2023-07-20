@@ -27,6 +27,6 @@ banner-icon:        "/assets/images/icons/cybersecurity-icon.svg"
 	{% capture card_content %}
 	<p>Texas A&M System Cybersecurity conducts strategic threat intelligence analysis from open sources to identify threats to the Texas A&M System and its members, proactively feed threat intelligence into the Cybersecurity Operations workflow, and assist system members with cyber threat mitigation.</p>
 	{% endcapture %}
-	{% include card.html color="card-1" title="Cyber Threat Intelligence" content=card_content %}
+	{% include card.html color="card-2" title="Cyber Threat Intelligence" content=card_content %}
 <!--	{% include card.html color="card-2" title="Cyber Threat Intelligence" read_more_url="cyber-threat-intel" content=card_content %} -->
 </div>

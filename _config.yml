@@ -28,10 +28,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-# theme: minima
+#theme: tamus-cyber-theme
 remote_theme: tamus-cyber/tamus-cyber-theme
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-toc
