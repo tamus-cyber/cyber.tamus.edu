@@ -29,4 +29,10 @@ banner-icon:        "/assets/images/icons/cybersecurity-icon.svg"
 	{% endcapture %}
 	{% include card.html color="card-2" title="Cyber Threat Intelligence" content=card_content %}
 <!--	{% include card.html color="card-2" title="Cyber Threat Intelligence" read_more_url="cyber-threat-intel" content=card_content %} -->
+
+	{% capture card_content %}
+	<p>Texas A&M System Cybersecurity operates a robust information sharing and analysis organization comprising the 19 members of the Texas A&amp;M University System and is a key contributor to the State of Texas Information Sharing &amp; Analysis Organization (TX-ISAO).</p>
+	{% endcapture %}
+	{% include card.html color="card-3" title="Information Sharing &amp; Analysis" content=card_content %}
+<!--	{% include card.html color="card-3" title="Information Sharing &amp; Analysis" read_more_url="info-sharing" content=card_content %} -->
 </div>
