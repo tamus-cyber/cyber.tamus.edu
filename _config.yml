@@ -20,12 +20,11 @@
 
 title: Cybersecurity
 email: contact@cyber.tamus.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  Texas A&amp;M System Cybersecurity leads the System's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our stakeholders to help them ensure a secure and resilient infrastructure.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+search: true
 
 # Build settings
 #theme: tamus-cyber-theme
