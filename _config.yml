@@ -34,6 +34,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-toc
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
