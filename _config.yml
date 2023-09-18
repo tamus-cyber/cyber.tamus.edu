@@ -23,7 +23,7 @@ email: contact@cyber.tamus.edu
 description: >-
   Texas A&amp;M System Cybersecurity leads the System's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our stakeholders to help them ensure a secure and resilient infrastructure.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cyber.tamus.edu" # the base hostname & protocol for your site, e.g. http://example.com
 search: true
 
 # Build settings
