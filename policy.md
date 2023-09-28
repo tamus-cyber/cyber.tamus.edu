@@ -2,7 +2,7 @@
 layout:             full-width
 title:              Policy
 first-heading:      Policy
-description:        Add a meta description for this page
+description:        Cybersecurity regulations and standards for the Texas A&amp;M System
 banner:             true
 banner-content:     "<p>Texas A&amp;M System Cybersecurity leads the system's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our stakeholders to help them ensure a secure and resilient infrastructure.</p>"
 banner-bg:          "/assets/images/banners/governance-header-background-full.jpg"
