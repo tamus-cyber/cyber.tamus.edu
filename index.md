@@ -12,13 +12,26 @@ banner-icon-alt:    A banner icon of a padlock
 
 <div class="row cards">
 	{% capture card_content %}
-	<p>Texas A&M System Cybersecurity provides monitoring, detection, and response as a service (MDRaaS) to help customers optimize their cyber defense posture. These services monitor customer devices and networks for signs of malicious or anomalous activity, eliminate false positives, and escalate only actionable items as an alert. MDRaaS alleviates alert and log fatigue by filtering out all of the false positives and only “alerts” on what is impactful. The elimination of false positives saves customers time and effort in reviewing potential threats.</p>
+	<p>Our managed detection and response (MDR) service helps you optimize your cyber defense posture.</p>
+
+	<h3>Managed Detection and Response</h3>
+	<p>The MDR service monitors your endpoints and network for signs of malicious activity. Cyber analysts then filter out false positives and only escalate actionable items as alerts. Clearing false positives alleviates alert fatigue and saves you time and effort reviewing potential threats.</p>
+
+	<h3>Incident Response</h3>
+	<p>We provide full-service incident response (IR) for threats identified through the MDR service. IR services can be delivered remotely or on-the-ground, depending on the incident's nature and scope.</p>
 	{% endcapture %}
 	{% include card.html color="card-0" title="Cybersecurity Operations" content=card_content %}
 <!--	{% include card.html color="card-0" title="Cybersecurity Operations" read_more_url="cyber-ops" content=card_content %} -->
 
 	{% capture card_content %}
-	<p>Texas A&M System Cybersecurity delivers managed services and professional consultation to assist system members with the management of their institution security programs.</p>
+	<p>Our managed and professional consultation services help you manage your information security program.</p>
+
+	<h3>Cyber Risk Management</h3>
+	<p>We conduct strategic analyses of open sources to identify cyber risks to your organization. Our analysts feed this information into our workflow to assist with cyber risk mitigation. Actionable items are also delivered to you for mitigation.</p>
+
+	<h3>Information Sharing &amp; Analysis</h3>
+	<p>The 19 members of the Texas A&M System form a robust information sharing and analysis organization. We also directly support the State of Texas Information Sharing & Analysis Organization (TX-ISAO).</p>
+
 	{% endcapture %}
 	{% include card.html color="card-1" title="Cybersecurity Shared Services" content=card_content %}
 <!--	{% include card.html color="card-1" title="Cybersecurity Shared Services" read_more_url="cyber-shared-services" content=card_content %} -->
@@ -26,14 +39,7 @@ banner-icon-alt:    A banner icon of a padlock
 
 <div class="row cards">
 	{% capture card_content %}
-	<p>Texas A&M System Cybersecurity conducts strategic threat intelligence analysis from open sources to identify threats to the Texas A&M System and its members, proactively feed threat intelligence into the Cybersecurity Operations workflow, and assist system members with cyber threat mitigation.</p>
+	<p>Texas A&amp;M System members and Texas public sector entities and institutions of higher education are eligible for our services. To learn more, please <a href="/contact">contact us</a>.</p>
 	{% endcapture %}
-	{% include card.html color="card-2" title="Cyber Threat Intelligence" content=card_content %}
-<!--	{% include card.html color="card-2" title="Cyber Threat Intelligence" read_more_url="cyber-threat-intel" content=card_content %} -->
-
-	{% capture card_content %}
-	<p>Texas A&M System Cybersecurity operates a robust information sharing and analysis organization comprising the 19 members of the Texas A&amp;M University System and is a key contributor to the State of Texas Information Sharing &amp; Analysis Organization (TX-ISAO).</p>
-	{% endcapture %}
-	{% include card.html color="card-3" title="Information Sharing &amp; Analysis" content=card_content %}
-<!--	{% include card.html color="card-3" title="Information Sharing &amp; Analysis" read_more_url="info-sharing" content=card_content %} -->
+	{% include full-width-card.html color="card-2" title="For More Information" content=card_content %}
 </div>
