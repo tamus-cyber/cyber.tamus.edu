@@ -4,7 +4,7 @@ layout: 	    full-width
 first-heading:      Contact Us
 description:        Contact information for Texas A&amp;M System Cybersecurity
 banner:             true
-banner-content:     Texas A&amp;M System Cybersecurity leads the system's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our stakeholders to help them ensure a secure and resilient infrastructure.
+banner-content:     Texas A&amp;M System Cybersecurity leads the system's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our customers to help them ensure a secure and resilient infrastructure.
 banner-bg:          /assets/images/banners/contact-header-background-full.jpg
 banner-icon:        /assets/images/icons/collaboration.webp
 banner-icon-alt:    A banner icon of two people communicating

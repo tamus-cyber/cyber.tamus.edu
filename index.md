@@ -4,7 +4,7 @@ title:              Texas A&amp;M System Cybersecurity
 first-heading:      Cybersecurity
 description:        Texas A&M System Cybersecurity provides monitoring, detection, and response as a service (MDRaaS) to help customers optimize their cyber defense posture
 banner:             true
-banner-content:     Texas A&amp;M System Cybersecurity leads the System's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our stakeholders to help them ensure a secure and resilient infrastructure.
+banner-content:     Texas A&amp;M System Cybersecurity leads the System's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our customers to help them ensure a secure and resilient infrastructure.
 banner-bg:          /assets/images/banners/cybersecurity-header-background-full.jpg
 banner-icon:        /assets/images/icons/cybersecurity-icon.svg
 banner-icon-alt:    A banner icon of a padlock

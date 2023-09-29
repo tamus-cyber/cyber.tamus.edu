@@ -4,7 +4,7 @@ title:              Policy
 first-heading:      Policy
 description:        Cybersecurity regulations and standards for the Texas A&amp;M System
 banner:             true
-banner-content:     Texas A&amp;M System Cybersecurity leads the system's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our stakeholders to help them ensure a secure and resilient infrastructure.
+banner-content:     Texas A&amp;M System Cybersecurity leads the system's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our customers to help them ensure a secure and resilient infrastructure.
 banner-bg:          /assets/images/banners/governance-header-background-full.jpg
 banner-icon:        /assets/images/icons/policy-icon.svg
 banner-icon-alt:    A banner icon of a pencil writing on paper
@@ -22,6 +22,6 @@ Texas A&M System cybersecurity regulations and standards provide system members 
 
 ## System Offices Cybersecurity Standards and Procedures
 
-System Offices cybersecurity standards and procedures guide the System Offices IT organization and other Texas A&M System Offices in execution of information security and compliance activities, and can be found here:
+System Offices cybersecurity standards and procedures guide the System Offices IT organization and other Texas A&M System Offices in the delivery of information security and compliance activities, and can be found here:
 
 [System Offices Cybersecurity Standards and Procedures](https://it.tamus.edu/cybersecurity/cyber-policy/so-cyber-policy/)
