@@ -1,6 +1,6 @@
 ---
-title:		    Contact
 layout: 	    full-width
+title:		    Contact Us
 first-heading:      Contact Us
 description:        Contact information for Texas A&amp;M System Cybersecurity
 banner:             true

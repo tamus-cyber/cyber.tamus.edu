@@ -1,6 +1,6 @@
 ---
 layout:             full-width
-title:              Policy
+title:              Cybersecurity Policy
 first-heading:      Policy
 description:        Cybersecurity regulations and standards for the Texas A&amp;M System
 banner:             true
