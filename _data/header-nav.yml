@@ -13,9 +13,9 @@ nav-items:
 #      - page: Cyber Threat Intelligence
 #        url: /services/cyber-threat-intel
   - title: Policy
-    url: /policy
+    url: /policy/
     id: policy-link
   - title: Contact
-    url: /contact
+    url: /contact/
     id: contact-link
     
