@@ -39,7 +39,7 @@ banner-icon-alt:    A banner icon of a padlock
 
 <div class="row cards">
 	{% capture card_content %}
-	<p>Texas A&amp;M System members and Texas public sector entities and institutions of higher education are eligible for our services. To learn more, please <a href="/contact">contact us</a>.</p>
+	<p>Texas A&amp;M System members and Texas public sector entities and institutions of higher education are eligible for our services. To learn more, please <a href="/contact/">contact us</a>.</p>
 	{% endcapture %}
 	{% include full-width-card.html color="card-2" title="For More Information" content=card_content %}
 </div>
