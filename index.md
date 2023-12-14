@@ -20,8 +20,8 @@ banner-icon-alt:    A banner icon of a padlock
 	<h3>Incident Response</h3>
 	<p>We provide full-service incident response (IR) for threats identified through the MDR service. IR services can be delivered remotely or on-the-ground, depending on the incident's nature and scope.</p>
 	{% endcapture %}
-	{% include card.html color="card-0" title="Cybersecurity Operations" content=card_content %}
-<!--	{% include card.html color="card-0" title="Cybersecurity Operations" read_more_url="cyber-ops" content=card_content %} -->
+	{% include card.html color="card-0" title="Cyber Operations" content=card_content %}
+<!--	{% include card.html color="card-0" title="Cyber Operations" read_more_url="cyber-ops" content=card_content %} -->
 
 	{% capture card_content %}
 	<p>Our managed and professional consultation services help you manage your information security program.</p>
@@ -33,8 +33,8 @@ banner-icon-alt:    A banner icon of a padlock
 	<p>The 19 members of the Texas A&M System form a robust information sharing and analysis organization. We also directly support the State of Texas Information Sharing & Analysis Organization (TX-ISAO).</p>
 
 	{% endcapture %}
-	{% include card.html color="card-1" title="Cybersecurity Shared Services" content=card_content %}
-<!--	{% include card.html color="card-1" title="Cybersecurity Shared Services" read_more_url="cyber-shared-services" content=card_content %} -->
+	{% include card.html color="card-1" title="Cyber Shared Services" content=card_content %}
+<!--	{% include card.html color="card-1" title="Cyber Shared Services" read_more_url="cyber-shared-services" content=card_content %} -->
 </div>
 
 <div class="row cards">
