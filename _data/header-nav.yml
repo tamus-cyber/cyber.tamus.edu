@@ -16,7 +16,7 @@ nav-items:
     url: /policy/
     id: policy-link
   - title: ISAO Portal
-    url: https://portal.cyber.tamus.edu/webapp/
+    url: https://portal.cyber.tamus.edu/
   - title: Contact
     url: /contact/
     id: contact-link
