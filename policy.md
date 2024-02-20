@@ -17,11 +17,12 @@ Texas A&M System cybersecurity regulations and standards provide system members 
 | Regulation/Standard | Document Link
 |---|---|
 | Regulation 29.01.03 | [Information Security](http://policies.tamus.edu/29-01-03.pdf) |
-| Standard | [Cybersecurity Control Standards](https://cyber-standards.tamus.edu/) |
+| Standard | [Texas A&M System Cybersecurity Standards](https://cyber-standards.tamus.edu/) |
+| Standard | [Texas A&M System Security Control Standards Catalog](https://cyber-standards.tamus.edu/catalog/) |
 | Standard | [Online Privacy Standard](https://cyber-standards.tamus.edu/privacy-standard) |
 
 ## System Offices Cybersecurity Standards and Procedures
 
 System Offices cybersecurity standards and procedures guide the System Offices IT organization and other Texas A&M System Offices in the delivery of information security and compliance activities, and can be found here:
 
-[System Offices Cybersecurity Standards and Procedures](https://it.tamus.edu/cybersecurity/cyber-policy/)
+[System Offices Cybersecurity Standards and Procedures](https://it.tamus.edu/cybersecurity/so-cyber-policy/)
