@@ -12,7 +12,7 @@ banner-icon-alt:    A banner icon of a pencil writing on paper
 
 ## Texas A&M System Cybersecurity Regulations and Standards
 
-Texas A&M System cybersecurity regulations and standards provide system members with additional guidance that enhances State-level requirements and system policy for implementing information security.
+These regulations and standards provide system members with guidance that enhances State-level requirements and system policy for implementing information security.
 
 | Regulation/Standard | Document Link
 |---|---|
@@ -23,6 +23,6 @@ Texas A&M System cybersecurity regulations and standards provide system members 
 
 ## System Offices Cybersecurity Standards and Procedures
 
-System Offices cybersecurity standards and procedures guide System Offices IT and other Texas A&M System Offices in the delivery of information security and compliance activities. These standards and procedures can be found here:
+These standards and procedures guide the Texas A&M System Offices in delivering information security and compliance activities. These standards and procedures can be found here:
 
 <a href="https://it.tamus.edu/cybersecurity/so-cyber-policy/"><button style="font-weight: bold; min-height: 44px;">System Offices Cybersecurity Standards and Procedures</button></a>
