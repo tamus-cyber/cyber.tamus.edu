@@ -18,11 +18,11 @@ _Review the [Traffic Light Protocol FAQ](https://us-cert.cisa.gov/tlp/) for info
 
 ### Phone
 
-[+1.979.234.0030](tel:+19792340030)
++1.979.234.0030
 
 ### Email
 
-[contact@cyber.tamus.edu](mailto:contact@cyber.tamus.edu)
+contact@cyber.tamus.edu
 
 ### PGP/GPG Key
 
