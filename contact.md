@@ -2,7 +2,7 @@
 layout: 	    full-width
 title:		    Contact Us
 first-heading:      Contact Us
-description:        Contact information for Texas A&amp;M System Cybersecurity
+description:        Contact information (including phone, email, postal mail, and email encryption keys) for Texas A&amp;M System Cybersecurity
 banner:             true
 banner-content:     Texas A&amp;M System Cybersecurity leads the system's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our customers to help them ensure a secure and resilient infrastructure.
 banner-bg:          /assets/images/banners/contact-header-background-full.jpg
