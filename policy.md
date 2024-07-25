@@ -23,7 +23,9 @@ These regulations and standards provide system members with guidance that enhanc
 
 ## System Offices Cybersecurity Rules, Standards and Procedures
 
-These rules, standards and procedures guide the Texas A&M System Offices in delivering information security and compliance activities. **They are internal and only apply to the System Offices.**
+These rules, standards and procedures guide the Texas A&M System Offices in delivering information security and compliance activities. 
+
+**They are internal and only apply to the System Offices.**
 
 | Rule/Procedure/Standard | Document Link
 |---|---|
