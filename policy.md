@@ -27,6 +27,6 @@ These rules, standards and procedures guide the Texas A&M System Offices in deli
 
 **They are internal and only apply to the System Offices.**
 
-| Rule/Procedure/Standard | Document Link
+| Rule/Standard/Procedure | Document Link
 |---|---|
 | Standard | [System Offices Security Controls Catalog](https://apps.system.tamus.edu/intranet/its/SO-Security-Control-Standards-Catalog.pdf)
