@@ -25,4 +25,6 @@ These regulations and standards provide system members with guidance that enhanc
 
 These standards and procedures guide the Texas A&M System Offices in delivering information security and compliance activities. These standards and procedures can be found here:
 
-<a href="https://it.tamus.edu/cybersecurity/so-cyber-policy/"><button style="font-weight: bold; min-height: 44px;">System Offices Cybersecurity Standards and Procedures</button></a>
+| Rule/Procedure/Standard | Document Link
+|---|---|
+| Standard | [System Offices Security Controls Catalog](https://apps.system.tamus.edu/intranet/its/SO-Security-Control-Standards-Catalog.pdf)
