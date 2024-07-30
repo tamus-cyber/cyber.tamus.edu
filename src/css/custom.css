@@ -1,0 +1,96 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+:root {
+  --ifm-color-primary: #003c71;
+  --ifm-color-primary-dark: #480000;
+  --ifm-color-primary-darker: #440000;
+  --ifm-color-primary-darkest: #380000;
+  --ifm-color-primary-light: #580000;
+  --ifm-color-primary-lighter: #5c0000;
+  --ifm-color-primary-lightest: #680000;
+  --ifm-link-color: #500000;
+}
+
+.footer {
+  --ifm-footer-color: #ffffff;
+  --ifm-footer-background-color: #500000;
+  --ifm-footer-link-color: #ffffff;
+  --ifm-link-color: #ffffff;
+  font-size: .8em;
+  line-height: 1.6em;
+}
+
+.footer a {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.footer__copyright a:hover, 
+.footer__links a:hover {
+  color: #ffffff;
+  text-decoration-style: solid;
+}
+
+.footer__link-item {
+  line-height: inherit;
+}
+
+.footer-logo {
+  float: right;
+}
+
+.homepage-cta a, 
+.markdown a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.markdown .hash-link, 
+.markdown sup a {
+  text-decoration: none;
+}
+
+.homepage-cta a:hover, 
+.markdown a:hover {
+  text-decoration-style: solid;
+}
+
+.required-controls h4 {
+  font-size: 1.25em;
+  margin-bottom: inherit;
+}
+
+.required-controls .required-date,
+.required-controls .implementation-level {
+  text-align: center;
+}
+
+.required-controls .new-requirement {
+  background-color: #ffff8f;
+}
+
+details summary {
+  font-weight: bold;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #e9e4dc;
+  --ifm-color-primary-dark: #c5c1ac;
+  --ifm-color-primary-darker: #bdb8a0;
+  --ifm-color-primary-darkest: #a49d7b;
+  --ifm-color-primary-light: #e7e5dc;
+  --ifm-color-primary-lighter: #efeee8;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-link-color: #e9e4dc;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  .required-controls .new-requirement {
+    background-color: #af8846;
+  }
+}
