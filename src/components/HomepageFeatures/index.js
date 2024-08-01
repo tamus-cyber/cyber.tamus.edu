@@ -12,7 +12,7 @@ const CyberOpsFeatureList = [
       </>
     ),
     ctaText: 'Contact Us',
-    ctaLink: '/form',
+    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/75',
   },
   {
     title: 'Incident Response',
@@ -23,7 +23,7 @@ const CyberOpsFeatureList = [
       </>
     ),
     ctaText: 'Contact Us',
-    ctaLink: '/form',
+    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/75',
   },
 ];
 
@@ -37,7 +37,7 @@ const CyberSharedServicesFeatureList = [
       </>
     ),
     ctaText: 'Contact Us',
-    ctaLink: '/form',
+    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/75',
   },
   {
     title: 'Information Sharing & Analysis',
@@ -48,12 +48,12 @@ const CyberSharedServicesFeatureList = [
       </>
     ),
     ctaText: 'Contact Us',
-    ctaLink: '/form',
+    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/75',
   },
 ];
 
 function Feature({Svg, title, description, ctaText, ctaLink}) {
-  return (
+   return (
     <div className={clsx('col col--6')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
