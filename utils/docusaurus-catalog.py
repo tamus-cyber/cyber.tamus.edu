@@ -1,4 +1,4 @@
-import argparse, html, json, os, shutil, xml.etree.ElementTree as ET
+import argparse, html, json, os, re, shutil, xml.etree.ElementTree as ET
 
 custom_edit_url = "https://github.com/tamus-cyber/standards.cyber.tamus.edu/tree/main/static/content/tamus.edu/TAMUS_profile.xml"
 
@@ -88,6 +88,9 @@ def returnControl(control):
 		if (prop.get('name') == "tamus_required_by"):
 			props.append(["Texas A&M System Required By", prop.get('value')])
 
+		if (prop.get('name') == "status" and prop.get('value') == "withdrawn"):
+			string += "%s\n\n" % (ET.tostring(prop, method='html').decode('utf-8'))
+
 	i = 0
 
 	for item in props:
@@ -103,9 +106,6 @@ def returnControl(control):
 	string += "\n"
 
 	for part in control.findall('{http://csrc.nist.gov/ns/oscal/1.0}part'):
-		if (part.get('name') == "withdrawn-status"):
-			string += "%s\n\n" % (part.text)
-
 		if (part.get('name') == "statement"):
 			string += "### Control\n\n"
 
@@ -114,14 +114,13 @@ def returnControl(control):
 			guidance = control.find('{http://csrc.nist.gov/ns/oscal/1.0}part[@name="guidance"]')
 
 			if (guidance is not None):
-				string += "<details>\n  <summary>Supplemental Guidance</summary>\n\n%s</details>\n\n" % (html.escape(returnStatement(part).replace('www.','www[.]')))
+				string += "<details>\n  <summary>Supplemental Guidance</summary>\n\n%s</details>\n\n" % (returnStatement(guidance).replace('.[agency].','.agency.'))
 
 		if (part.get('name') == "tx_implementation"):
 			string += "### Texas DIR Implementation Statement\n\n"
 
-			for withdrawn_part in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}part'):
-				if (withdrawn_part.get('name') == "withdrawn-status"):
-					string += "%s\n\n" % (withdrawn_part.text)
+			for withdrawn_prop in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]'):
+				string += "%s\n\n" % (ET.tostring(withdrawn_prop, method='html').decode('utf-8'))
 
 			if (part.findall('{http://csrc.nist.gov/ns/oscal/1.0}p')):
 				string += returnStatement(part)
@@ -129,9 +128,8 @@ def returnControl(control):
 		if (part.get('name') == "tamus_implementation"):
 			string += "### Texas A&M System Implementation Statement\n\n"
 
-			for withdrawn_part in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}part'):
-				if (withdrawn_part.get('name') == "withdrawn-status"):
-					string += "%s\n\n" % (withdrawn_part.text)
+			for withdrawn_prop in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]'):
+				string += "%s\n\n" % (ET.tostring(withdrawn_prop, method='html').decode('utf-8'))
 
 			if (part.findall('{http://csrc.nist.gov/ns/oscal/1.0}p')):
 				string += returnStatement(part)
@@ -148,26 +146,26 @@ def returnEnhancement(enhancement):
 
 	string = "## %s %s {#%s}\n\n" % (title['label'], title['title'], enhancement.find("{http://csrc.nist.gov/ns/oscal/1.0}prop[@name='sort-id']").attrib['value'])
 
-	for part in enhancement.findall('{http://csrc.nist.gov/ns/oscal/1.0}part'):
-		if (part.get('name') == "withdrawn-status"):
-			string += "%s\n\n" % (part.text)
+	for prop in enhancement.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop'):
+		if (prop.get('name') == "status" and prop.get('value') == "withdrawn"):
+			string += "%s\n\n" % (ET.tostring(prop, method='html').decode('utf-8'))
 
+	for part in enhancement.findall('{http://csrc.nist.gov/ns/oscal/1.0}part'):
 		if (part.get('name') == "statement"):
 			string += "### Control\n\n"
 
 			string += returnStatement(part)
 
-			guidance = control.find('{http://csrc.nist.gov/ns/oscal/1.0}part[@name="guidance"]')
+			guidance = enhancement.find('{http://csrc.nist.gov/ns/oscal/1.0}part[@name="guidance"]')
 
 			if (guidance is not None):
-				string += "<details>\n  <summary>Supplemental Guidance</summary>\n\n%s</details>\n\n" % (html.escape(returnStatement(part).replace('www.','www[.]')))
+				string += "<details>\n  <summary>Supplemental Guidance</summary>\n\n%s</details>\n\n" % (returnStatement(guidance).replace('.[agency].','.agency.'))
 
 		if (part.get('name') == "tx_implementation"):
 			string += "### Texas DIR Implementation Statement\n\n"
 
-			for withdrawn_part in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}part'):
-				if (withdrawn_part.get('name') == "withdrawn-status"):
-					string += "%s\n\n" % (withdrawn_part.text)
+			for withdrawn_prop in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]'):
+				string += "%s\n\n" % (ET.tostring(withdrawn_prop, method='html').decode('utf-8'))
 
 			if (part.findall('{http://csrc.nist.gov/ns/oscal/1.0}p')):
 				string += returnStatement(part)
@@ -175,9 +173,8 @@ def returnEnhancement(enhancement):
 		if (part.get('name') == "tamus_implementation"):
 			string += "### Texas A&M System Implementation Statement\n\n"
 
-			for withdrawn_part in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}part'):
-				if (withdrawn_part.get('name') == "withdrawn-status"):
-					string += "%s\n\n" % (withdrawn_part.text)
+			for withdrawn_prop in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]'):
+				string += "%s\n\n" % (ET.tostring(withdrawn_prop, method='html').decode('utf-8'))
 
 			if (part.findall('{http://csrc.nist.gov/ns/oscal/1.0}p')):
 				string += returnStatement(part)
@@ -191,6 +188,8 @@ def returnStatement(statement):
 	string = ""
 
 	for item in statement.iter('{http://csrc.nist.gov/ns/oscal/1.0}part'):
+		prop = item.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="label"]')
+
 		if (item.get('name') == "item"):
 			i =+ 1
 
@@ -200,12 +199,18 @@ def returnStatement(statement):
 				if (prop.get('name') == "label"):
 					label = prop.get('value') + " "
 
-			p = item.find('{http://csrc.nist.gov/ns/oscal/1.0}p').text
+			content = item.find('{http://csrc.nist.gov/ns/oscal/1.0}p')
+			p = "".join( [ content.text ] + [ ET.tostring(e).decode('utf-8') for e in list(content) ] ).replace('\n','')
+			p = p.replace('<CTRL> + <ALT> + <DEL>', 'CTRL-ALT-DEL').replace('<BREAK>', 'BREAK')	# Use to hack out unintended results from bad tags in guidance
 
 			string += "%s%s\n\n" % (label, p)
 
 	if (i == 0):
-		string += "%s\n\n" % (statement.find('{http://csrc.nist.gov/ns/oscal/1.0}p').text)
+			content = item.find('{http://csrc.nist.gov/ns/oscal/1.0}p')
+			p = "".join( [ content.text ] + [ ET.tostring(e).decode('utf-8') for e in list(content) ] ).replace('\n','')
+			p = p.replace('<CTRL> + <ALT> + <DEL>', 'CTRL-ALT-DEL').replace('<BREAK>', 'BREAK')	# Use to hack out unintended results from bad tags in guidance
+
+			string += "%s\n\n" % (p)
 
 	return string
 
@@ -217,6 +222,7 @@ args = parser.parse_args()
 
 tree = ET.parse(args.source[0])
 root = tree.getroot()
+ET.register_namespace("", "http://csrc.nist.gov/ns/oscal/1.0")
 catalog_dir = args.dest[0]
 
 families = root.findall("{http://csrc.nist.gov/ns/oscal/1.0}group")

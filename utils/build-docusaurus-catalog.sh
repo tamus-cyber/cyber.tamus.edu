@@ -30,4 +30,4 @@ rm $3/required-controls.md-e
 
 # This cleans up the temporary XML file created by step 1
 
-rm /tmp/catalog.xml
+#rm /tmp/catalog.xml
