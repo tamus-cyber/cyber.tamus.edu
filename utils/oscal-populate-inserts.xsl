@@ -54,7 +54,7 @@
    </xsl:template>
 
    <xsl:template match="control" mode="link-as-link" expand-text="true">
-      <xsl:text>[{ prop[@name='label'][2]/@value }](../{ substring(@id, 1, 2) }/{ substring(prop[@name='sort-id']/@value, 1, 5) }#{ prop[@name='sort-id']/@value })</xsl:text>
+      <xsl:text>[{ prop[@name='label'][2]/@value }](../../{ substring(@id, 1, 2) }/{ substring(prop[@name='sort-id']/@value, 1, 5) }#{ prop[@name='sort-id']/@value })</xsl:text>
    </xsl:template>
 
    <xsl:template priority="2" match="resource[empty(rlink)]" mode="link-as-link">
