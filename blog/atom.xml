@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cyber.tamus.edu/blog/</id>
+    <title>Texas A&amp;M System Cybersecurity Blog</title>
+    <updated>2024-06-09T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://cyber.tamus.edu/blog/"/>
+    <subtitle>Texas A&amp;M System Cybersecurity Blog</subtitle>
+    <icon>https://cyber.tamus.edu/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://cyber.tamus.edu/blog/welcome/</id>
+        <link href="https://cyber.tamus.edu/blog/welcome/"/>
+        <updated>2024-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the Cybersecurity blog!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the Cybersecurity blog!</p>
+<p>We will post any updates, changes, answers to questions, etc. regarding the A&amp;M System's cybersecurity policy program here.</p>
+<p>Related posts include System Regulation 29.01.03 (and other regulations that may have security implications), the security control standards catalog, their supporting guidelines, as well as useful information regarding the implementation of the standards.</p>
+<p>Stay tuned!</p>]]></content>
+        <author>
+            <name>Nick McLarty</name>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="blog" term="blog"/>
+        <category label="policy" term="policy"/>
+    </entry>
+</feed>

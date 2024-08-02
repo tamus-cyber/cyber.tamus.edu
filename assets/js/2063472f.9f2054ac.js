@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstandards_cyber_tamus_edu=self.webpackChunkstandards_cyber_tamus_edu||[]).push([[3215],{17646:l=>{l.exports=JSON.parse('{"tags":[{"label":"hello","permalink":"/blog/tags/hello","count":1},{"label":"blog","permalink":"/blog/tags/blog","count":1},{"label":"policy","permalink":"/blog/tags/policy","count":1}]}')}}]);
