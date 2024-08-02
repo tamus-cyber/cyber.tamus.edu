@@ -13,7 +13,7 @@ const config = {
   tagline: `Texas A&M System Cybersecurity leads the System's effort to manage and reduce risk to our cyber infrastructure. We deliver resources and tools to our customers to help them ensure a secure and resilient infrastructure.`,
 
   // Set the production url of your site here
-  url: 'https://standards.cyber.tamus.edu',
+  url: 'https://cyber.tamus.edu',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,8 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'tamus-cyber', // Usually your GitHub org/user name.
-  projectName: 'standards.cyber.tamus.edu', // Usually your repo name.
+  projectName: 'cyber.tamus.edu', // Usually your repo name.
+  trailingSlash: true, // Force trailing slash.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -49,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/tamus-cyber/standards.cyber.tamus.edu/tree/main/',
+            'https://github.com/tamus-cyber/cyber.tamus.edu/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -89,7 +90,7 @@ const config = {
             label: 'Policy',
             position: 'left',
             items: [
-              {to: '/policy', label: 'Regulations & Standards'},
+              {to: '/policy/standards', label: 'Regulations & Standards'},
               {
                 type: 'docSidebar',
                 sidebarId: 'catalogSidebar',
@@ -115,7 +116,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/tamus-cyber/standards.cyber.tamus.edu',
+            href: 'https://github.com/tamus-cyber/cyber.tamus.edu',
             label: 'GitHub',
             position: 'right',
           },
