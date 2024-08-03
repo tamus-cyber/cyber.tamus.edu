@@ -203,14 +203,14 @@ def returnStatement(statement):
 			p = "".join( [ content.text ] + [ ET.tostring(e).decode('utf-8') for e in list(content) ] ).replace('\n','')
 			p = p.replace('<CTRL> + <ALT> + <DEL>', 'CTRL-ALT-DEL').replace('<BREAK>', 'BREAK')	# Use to hack out unintended results from bad tags in guidance
 
-			string += "%s%s\n\n" % (label, p)
+			string += "%s%s\n\n" % (label, re.sub(' +', ' ', p))
 
 	if (i == 0):
 			content = item.find('{http://csrc.nist.gov/ns/oscal/1.0}p')
 			p = "".join( [ content.text ] + [ ET.tostring(e).decode('utf-8') for e in list(content) ] ).replace('\n','')
 			p = p.replace('<CTRL> + <ALT> + <DEL>', 'CTRL-ALT-DEL').replace('<BREAK>', 'BREAK')	# Use to hack out unintended results from bad tags in guidance
 
-			string += "%s\n\n" % (p)
+			string += "%s\n\n" % (re.sub(' +', ' ', p))
 
 	return string
 
