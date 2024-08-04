@@ -57,17 +57,25 @@ def returnTitle(control):
 	return {"label": label, "title": title}
 
 
-def returnControl(control):
+def returnControl(control, controlType="Control"):
 	title = returnTitle(control)
 
-	string = "# %s %s {#%s}\n\n" % (title['label'], title['title'], control.find("{http://csrc.nist.gov/ns/oscal/1.0}prop[@name='sort-id']").attrib['value'])
+	if (controlType == "enhancement"):
+		string = "## %s %s {#%s}\n\n" % (title['label'], title['title'], control.find("{http://csrc.nist.gov/ns/oscal/1.0}prop[@name='sort-id']").attrib['value'])
+	else:
+		string = "# %s %s {#%s}\n\n" % (title['label'], title['title'], control.find("{http://csrc.nist.gov/ns/oscal/1.0}prop[@name='sort-id']").attrib['value'])
 
 	props = []
 
-	for prop in control.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop'):
-		if (prop.get('name') == "implementation-level"):
-			props.append(["Implementation Level", prop.get('value').title()])
+	implementationLevel = []
 
+	for prop in control.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="implementation-level"]'):
+		implementationLevel.append(prop.get('value').replace('system', 'information system').title())
+
+	if (implementationLevel):
+		props.append(["Implementation Level", "; ".join(implementationLevel)])
+
+	for prop in control.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop'):
 		if (prop.get('name') == "contributes-to-assurance"):
 			if (prop.get('value')):
 				answer = "Yes"
@@ -88,9 +96,6 @@ def returnControl(control):
 		if (prop.get('name') == "tamus_required_by"):
 			props.append(["Texas A&M System Required By", prop.get('value')])
 
-		if (prop.get('name') == "status" and prop.get('value') == "withdrawn"):
-			string += "%s\n\n" % (ET.tostring(prop, method='html').decode('utf-8'))
-
 	i = 0
 
 	for item in props:
@@ -105,82 +110,50 @@ def returnControl(control):
 
 	string += "\n"
 
-	for part in control.findall('{http://csrc.nist.gov/ns/oscal/1.0}part'):
-		if (part.get('name') == "statement"):
-			string += "### Control\n\n"
+	withdrawn = control.find('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]')
 
-			string += returnStatement(part)
+	if (withdrawn is not None):
+		string += "%s\n\n" % (ET.tostring(withdrawn, method='html').decode('utf-8'))
 
-			guidance = control.find('{http://csrc.nist.gov/ns/oscal/1.0}part[@name="guidance"]')
+	controlStatement = control.find('{http://csrc.nist.gov/ns/oscal/1.0}part[@name="statement"]')
 
-			if (guidance is not None):
-				string += "<details>\n  <summary>Supplemental Guidance</summary>\n\n%s</details>\n\n" % (returnStatement(guidance).replace('.[agency].','.agency.'))
+	if (controlStatement is not None):
+		string += "### Control\n\n%s" % (returnStatement(controlStatement))
 
-		if (part.get('name') == "tx_implementation"):
-			string += "### Texas DIR Implementation Statement\n\n"
+	guidanceStatement = control.find('{http://csrc.nist.gov/ns/oscal/1.0}part[@name="guidance"]')
 
-			for withdrawn_prop in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]'):
-				string += "%s\n\n" % (ET.tostring(withdrawn_prop, method='html').decode('utf-8'))
+	if (guidanceStatement is not None):
+		string += "<details>\n  <summary>Supplemental Guidance</summary>\n\n%s</details>\n\n" % (returnStatement(guidanceStatement).replace('.[agency]', '.agency'))
 
-			if (part.findall('{http://csrc.nist.gov/ns/oscal/1.0}p')):
-				string += returnStatement(part)
+	txStatement = control.find('{http://csrc.nist.gov/ns/oscal/1.0}part[@name="tx_implementation"]')
 
-		if (part.get('name') == "tamus_implementation"):
-			string += "### Texas A&M System Implementation Statement\n\n"
+	if (txStatement is not None):
+		string += "### Texas DIR Implementation Statement\n\n"
 
-			for withdrawn_prop in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]'):
-				string += "%s\n\n" % (ET.tostring(withdrawn_prop, method='html').decode('utf-8'))
+		withdrawn = txStatement.find('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]')
 
-			if (part.findall('{http://csrc.nist.gov/ns/oscal/1.0}p')):
-				string += returnStatement(part)
+		if (withdrawn is not None):
+			string += "%s\n\n" % (ET.tostring(withdrawn, method='html').decode('utf-8'))
+
+		string += "%s" % (returnStatement(txStatement))
+
+	tamusStatement = control.find('{http://csrc.nist.gov/ns/oscal/1.0}part[@name="tamus_implementation"]')
+
+	if (tamusStatement is not None):
+		string += "### Texas A&M System Implementation Statement\n\n"
+
+		withdrawn = tamusStatement.find('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]')
+
+		if (withdrawn is not None):
+			string += "%s\n\n" % (ET.tostring(withdrawn, method='html').decode('utf-8'))
+
+		string += "%s" % (returnStatement(tamusStatement))
 
 	for enhancement in control.findall('{http://csrc.nist.gov/ns/oscal/1.0}control'):
 		if (enhancement.get('class') == "SP800-53-enhancement"):
-			string += returnEnhancement(enhancement)
+			string += returnControl(enhancement, controlType="enhancement")
 
 	return string
-
-
-def returnEnhancement(enhancement):
-	title = returnTitle(enhancement)
-
-	string = "## %s %s {#%s}\n\n" % (title['label'], title['title'], enhancement.find("{http://csrc.nist.gov/ns/oscal/1.0}prop[@name='sort-id']").attrib['value'])
-
-	for prop in enhancement.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop'):
-		if (prop.get('name') == "status" and prop.get('value') == "withdrawn"):
-			string += "%s\n\n" % (ET.tostring(prop, method='html').decode('utf-8'))
-
-	for part in enhancement.findall('{http://csrc.nist.gov/ns/oscal/1.0}part'):
-		if (part.get('name') == "statement"):
-			string += "### Control\n\n"
-
-			string += returnStatement(part)
-
-			guidance = enhancement.find('{http://csrc.nist.gov/ns/oscal/1.0}part[@name="guidance"]')
-
-			if (guidance is not None):
-				string += "<details>\n  <summary>Supplemental Guidance</summary>\n\n%s</details>\n\n" % (returnStatement(guidance).replace('.[agency].','.agency.'))
-
-		if (part.get('name') == "tx_implementation"):
-			string += "### Texas DIR Implementation Statement\n\n"
-
-			for withdrawn_prop in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]'):
-				string += "%s\n\n" % (ET.tostring(withdrawn_prop, method='html').decode('utf-8'))
-
-			if (part.findall('{http://csrc.nist.gov/ns/oscal/1.0}p')):
-				string += returnStatement(part)
-
-		if (part.get('name') == "tamus_implementation"):
-			string += "### Texas A&M System Implementation Statement\n\n"
-
-			for withdrawn_prop in part.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="status"][@value="withdrawn"]'):
-				string += "%s\n\n" % (ET.tostring(withdrawn_prop, method='html').decode('utf-8'))
-
-			if (part.findall('{http://csrc.nist.gov/ns/oscal/1.0}p')):
-				string += returnStatement(part)
-
-	return string
-
 
 def returnStatement(statement):
 	i = 0
@@ -188,29 +161,35 @@ def returnStatement(statement):
 	string = ""
 
 	for item in statement.iter('{http://csrc.nist.gov/ns/oscal/1.0}part'):
-		prop = item.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="label"]')
+		i += 1
 
-		if (item.get('name') == "item"):
-			i =+ 1
+		label = item.find('{http://csrc.nist.gov/ns/oscal/1.0}prop[@name="label"]')
 
-			label = ""
+		content = item.find('{http://csrc.nist.gov/ns/oscal/1.0}p')
 
-			for prop in item.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop'):
-				if (prop.get('name') == "label"):
-					label = prop.get('value') + " "
-
-			content = item.find('{http://csrc.nist.gov/ns/oscal/1.0}p')
+		if (content is not None):
 			p = "".join( [ content.text ] + [ ET.tostring(e).decode('utf-8') for e in list(content) ] ).replace('\n','')
 			p = p.replace('<CTRL> + <ALT> + <DEL>', 'CTRL-ALT-DEL').replace('<BREAK>', 'BREAK')	# Use to hack out unintended results from bad tags in guidance
+			p = re.sub(' +', ' ', p)
+			if (label is not None):
+				if (label.get('value')[0] == "("):
+					label = "    %s " % (label.get('value'))
+				else:
+					label = "%s " % (label.get('value'))
 
-			string += "%s%s\n\n" % (label, re.sub(' +', ' ', p))
+				string += "%s%s\n\n" % (label, p)
+			else:
+				string += "%s\n\n" % (p)
 
 	if (i == 0):
-			content = item.find('{http://csrc.nist.gov/ns/oscal/1.0}p')
-			p = "".join( [ content.text ] + [ ET.tostring(e).decode('utf-8') for e in list(content) ] ).replace('\n','')
-			p = p.replace('<CTRL> + <ALT> + <DEL>', 'CTRL-ALT-DEL').replace('<BREAK>', 'BREAK')	# Use to hack out unintended results from bad tags in guidance
+			content = statement.find('{http://csrc.nist.gov/ns/oscal/1.0}p')
 
-			string += "%s\n\n" % (re.sub(' +', ' ', p))
+			if (content is not None):
+				p = "".join( [ content.text ] + [ ET.tostring(e).decode('utf-8') for e in list(content) ] ).replace('\n','')
+				p = p.replace('<CTRL> + <ALT> + <DEL>', 'CTRL-ALT-DEL').replace('<BREAK>', 'BREAK')	# Use to hack out unintended results from bad tags in guidance
+				p = re.sub(' +', ' ', p)
+
+				string += "%s\n\n" % (p)
 
 	return string
 
