@@ -1,6 +1,6 @@
 import argparse, html, json, os, re, shutil, xml.etree.ElementTree as ET
 
-custom_edit_url = "https://github.com/tamus-cyber/standards.cyber.tamus.edu/tree/main/static/content/tamus.edu/TAMUS_profile.xml"
+custom_edit_url = "https://github.com/tamus-cyber/tamus-control-standards/tree/main/content/tamus.edu/TAMUS_profile.xml"
 
 intro_text = """The security control standards catalog provides protective measures for systems, organizations, and
 individuals. The controls are designed to facilitate risk management and compliance with applicable laws, policies,
