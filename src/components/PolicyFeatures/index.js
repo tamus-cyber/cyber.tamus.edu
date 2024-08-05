@@ -6,6 +6,7 @@ const FeatureList = [
   {
     title: 'Regulations & Standards',
     Svg: require('@site/static/img/undraw-books.svg').default,
+    svgAlt: 'A man reading a policy book.',
     href: '/policy/standards',
     description: (
       <>
@@ -16,6 +17,7 @@ const FeatureList = [
   {
     title: 'Guidelines',
     Svg: require('@site/static/img/undraw-directions.svg').default,
+    svgAlt: 'A woman reviewing guidelines on a mobile device.',
     href: '/policy/guidelines',
     description: (
       <>
@@ -26,6 +28,7 @@ const FeatureList = [
   {
     title: 'Resources',
     Svg: require('@site/static/img/undraw-helpful-sign.svg').default,
+    svgAlt: 'A man looking at a sign with resource information.',
     href: '/policy/resources',
     description: (
       <>
@@ -35,12 +38,12 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, href, description}) {
+function Feature({Svg, svgAlt, title, href, description}) {
   return (
     <div className={clsx('col col--4')}>
       <a href={href}>
         <div className="text--center">
-          <Svg className={styles.featureSvg} role="img" />
+          <Svg className={styles.featureSvg} role="img" aria-label={svgAlt} />
         </div>
         <div className="text--center padding-horiz--md">
           <Heading as="h3">{title}</Heading>
