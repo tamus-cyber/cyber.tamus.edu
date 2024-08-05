@@ -74,7 +74,7 @@
 
         <tr id="{ $familyId }">
           <td colspan="5">
-            <h4><xsl:value-of select="title"/> (<xsl:value-of select="upper-case(@id)"/>)</h4>
+            <heading><xsl:value-of select="title"/> (<xsl:value-of select="upper-case(@id)"/>)</heading>
           </td>
         </tr>
         <xsl:for-each select="control">

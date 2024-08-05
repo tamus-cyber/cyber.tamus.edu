@@ -60,8 +60,9 @@
   text-decoration-style: solid;
 }
 
-.required-controls h4 {
-  font-size: 1.25em;
+.required-controls heading {
+  font-size: 1.2em;
+  font-weight: 700;
   margin-bottom: inherit;
 }
 
