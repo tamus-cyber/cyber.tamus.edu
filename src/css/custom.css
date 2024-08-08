@@ -90,8 +90,8 @@ details summary {
   --ifm-color-primary-lightest: #ffffff;
   --ifm-link-color: #e9e4dc;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
 
-  .required-controls .new-requirement {
+[data-theme='dark'] .new-requirement {
     background-color: #fd5200;
-  }
 }
