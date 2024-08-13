@@ -72,6 +72,10 @@ article a:hover {
   text-decoration-style: solid;
 }
 
+article header a {
+  text-decoration: none;
+}
+
 details summary {
   font-weight: bold;
 }
