@@ -26,8 +26,6 @@
 
 .footer a {
   font-weight: 600;
-  text-decoration: underline;
-  text-decoration-style: dotted;
 }
 
 .footer__copyright a:hover, 
@@ -44,20 +42,9 @@
   float: right;
 }
 
-.homepage-cta a, 
-.markdown a {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-}
-
 .markdown .hash-link, 
 .markdown sup a {
   text-decoration: none;
-}
-
-.homepage-cta a:hover, 
-.markdown a:hover {
-  text-decoration-style: solid;
 }
 
 .required-controls heading {
@@ -73,6 +60,16 @@
 
 .required-controls .new-requirement {
   background-color: #ffff8f;
+}
+
+article a, 
+.footer a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+article a:hover {
+  text-decoration-style: solid;
 }
 
 details summary {
