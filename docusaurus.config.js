@@ -86,11 +86,11 @@ const config = {
           {to: '/', label: 'Home', position: 'left'},
           {
             type: 'dropdown',
-            to: '/policy',
+            to: '/policy/',
             label: 'Policy',
             position: 'left',
             items: [
-              {to: '/policy/standards', label: 'Regulations & Standards'},
+              {to: '/policy/standards/', label: 'Regulations & Standards'},
               {
                 type: 'docSidebar',
                 sidebarId: 'catalogSidebar',
@@ -108,15 +108,15 @@ const config = {
               },
             ],
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/contact', label: 'Contact', position: 'left'},
+          {to: '/blog/', label: 'Blog', position: 'left'},
+          {to: '/contact/', label: 'Contact', position: 'left'},
           {
-            href: 'https://portal.cyber.tamus.edu',
+            href: 'https://portal.cyber.tamus.edu/',
             label: 'ISAO Portal',
             position: 'left',
           },
           {
-            href: 'https://github.com/tamus-cyber/cyber.tamus.edu',
+            href: 'https://github.com/tamus-cyber/cyber.tamus.edu/',
             label: 'GitHub',
             position: 'right',
           },
@@ -130,7 +130,7 @@ const config = {
           },
           {
             label: 'Texas Homeland Security',
-            href: 'https://gov.texas.gov/organization/hsgd',
+            href: 'https://gov.texas.gov/organization/hsgd/',
           },
           {
             label: 'Texas Veterans Portal',
@@ -138,11 +138,11 @@ const config = {
           },
           {
             label: 'Statewide Search',
-            href: 'https://www.tsl.texas.gov/trail',
+            href: 'https://www.tsl.texas.gov/trail/',
           },
           {
             label: 'Risk, Fraud & Misconduct Hotline',
-            href: 'https://secure.ethicspoint.com/domain/media/en/gui/19681/index.html',
+            href: 'https://secure.ethicspoint.com/domain/media/en/gui/19681/',
           },
           {
             label: 'Privacy',
@@ -154,7 +154,7 @@ const config = {
           },
           {
             label: 'State Link Policy',
-            href: 'https://dir.texas.gov/resource-library-item/state-website-linking-privacy-policy?id=21',
+            href: 'https://dir.texas.gov/resource-library-item/state-website-linking-privacy-policy/',
           },
           {
             label: 'Campus Carry',
@@ -165,7 +165,7 @@ const config = {
         logo: {
           alt: 'The Texas A&M University System',
           src: '/img/tamus-primary-white.png',
-          href: 'https://www.tamus.edu',
+          href: 'https://www.tamus.edu/',
           height: 85,
         }
       },
