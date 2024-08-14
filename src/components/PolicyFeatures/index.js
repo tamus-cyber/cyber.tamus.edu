@@ -46,7 +46,7 @@ function Feature({Svg, svgAlt, title, href, description}) {
           <Svg className={styles.featureSvg} role="img" aria-label={svgAlt} />
         </div>
         <div className="text--center padding-horiz--md">
-          <Heading as="h3">{title}</Heading>
+          <Heading as="h2">{title}</Heading>
           <p>{description}</p>
         </div>
       </a>
