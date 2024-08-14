@@ -76,9 +76,9 @@ The table below defines each impact category description and its associated seve
 
 * [TAMUS ISAO Portal](https://portal.cyber.tamus.edu)
 
-* Supplemental Info / Indicators of Compromise: [contact@cyber.tamus.edu](mailto:contact@cyber.tamus.edu) ([PGP/GPG Key for Encrypted Email](https://cyber.tamus.edu/contact))
+* Supplemental Info / Indicators of Compromise: [contact@cyber.tamus.edu](mailto:contact@cyber.tamus.edu) ([PGP/GPG Key for Encrypted Email](https://cyber.tamus.edu/contact/))
 
-* Cyber Operations Watch Officer: (979) 234-0030 Opt. 3
+* Cyber Operations Hotline: (979) 234-0030 Opt. 3
 
 [^1]: [Title 1 Texas Administrative Code § 202.76, Security Control Standards Catalog](https://www.sos.texas.gov/tac/index.shtml).
 [^2]: [NIST Special Publication 800-61 Rev 2, Computer Security Incident Handling Guide, August 2012](https://doi.org/10.6028/NIST.SP.800-61r2).
