@@ -19,7 +19,7 @@ function PolicyHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/catalog">
+            to="/catalog/">
             Texas A&amp;M System Control Standards Catalog
           </Link>
         </div>

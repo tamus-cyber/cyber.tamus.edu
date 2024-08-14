@@ -7,7 +7,7 @@ const FeatureList = [
     title: 'Regulations & Standards',
     Svg: require('@site/static/img/undraw-books.svg').default,
     svgAlt: 'A man reading a policy book.',
-    href: '/policy/standards',
+    href: '/policy/standards/',
     description: (
       <>
         Regulations and standards provide system members with guidance that enhances State-level requirements and system policy for implementing information security.
@@ -18,7 +18,7 @@ const FeatureList = [
     title: 'Guidelines',
     Svg: require('@site/static/img/undraw-directions.svg').default,
     svgAlt: 'A woman reviewing guidelines on a mobile device.',
-    href: '/policy/guidelines',
+    href: '/policy/guidelines/',
     description: (
       <>
         Guidelines provide enhanced direction to system members for implementing the security control standards established by the control standards catalog.
@@ -29,7 +29,7 @@ const FeatureList = [
     title: 'Resources',
     Svg: require('@site/static/img/undraw-helpful-sign.svg').default,
     svgAlt: 'A man looking at a sign with resource information.',
-    href: '/policy/resources',
+    href: '/policy/resources/',
     description: (
       <>
         Resources are available to assist system members in their implementation of cybersecurity standards.
