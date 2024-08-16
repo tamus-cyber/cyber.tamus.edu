@@ -72,7 +72,9 @@ article a:hover {
   text-decoration-style: solid;
 }
 
-article header a {
+article header a,
+article .button,
+article .button:hover {
   text-decoration: none;
 }
 
