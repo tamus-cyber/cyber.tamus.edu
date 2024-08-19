@@ -62,6 +62,12 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+          changefreq: 'monthly',
+          priority: 0.5,
+          ignorePatterns: ['/catalog/**'],
+          filename: 'sitemap.xml',
+        }
       }),
     ],
   ],
