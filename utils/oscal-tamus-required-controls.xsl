@@ -37,7 +37,7 @@
     <xsl:if test="prop[@name='tx_required_by'] or prop[@name='tamus_required_by']">
       <tr>
         <td class="{ $controlClass }">
-          <a class="control-title" href="/catalog/{ $familyId }/{ substring($controlId, 1, 5) }#{ $controlId }">
+          <a class="control-title" href="/catalog/{ $familyId }/{ substring($controlId, 1, 5) }/#{ $controlId }">
             <xsl:value-of select="prop[@name='label'][2]/@value"/><xsl:text> </xsl:text><xsl:value-of select="title"/>
           </a>
         </td>
