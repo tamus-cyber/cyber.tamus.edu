@@ -1,4 +1,10 @@
-import argparse, html, json, os, re, shutil, xml.etree.ElementTree as ET
+import argparse
+import html
+import json
+import os
+import re
+import shutil
+import xml.etree.ElementTree as ET
 
 custom_edit_url = "https://github.com/tamus-cyber/tamus-control-standards/tree/main/content/tamus.edu/TAMUS_profile.xml"
 
@@ -44,14 +50,11 @@ def returnTitle(control):
 	label = ""
 
 	for prop in control.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop'):
-		if (prop.get('name') == "label" and prop.get('class') == None):
+		if (prop.get('name') == "label"):
 			label = prop.get('value')
+			if prop.get('class') is None:
+				break
 
-	if (label == ""):
-		for prop in control.findall('{http://csrc.nist.gov/ns/oscal/1.0}prop'):
-			if (prop.get('name') == "label"):
-				label = prop.get('value')
-		
 	title = control.find('{http://csrc.nist.gov/ns/oscal/1.0}title').text
 
 	return {"label": label, "title": title}
