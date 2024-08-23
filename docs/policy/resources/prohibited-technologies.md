@@ -10,9 +10,15 @@ The Texas A&M University System follows the Texas Governor's directive dated Dec
 
 To assist A&M System members in making procurement and implementation decisions involving affiliates and subsidiaries of prohibited entities, the TAMUS Prohibited Entity Affiliates/Subsidiaries Repository has been established to serve as a central point to document and access discoveries of such affiliates and subisidaries by system members.
 
+:::warning
+
+Submissions to the Prohibited Entry Affiliates/Subsidiaries Repository are crowd-sourced from Texas A&M System members and not validated by Texas A&M System Cybersecurity.
+
+:::
+
 ## Prohibited Entity Affiliates/Subsidiaries Repository
 
-<center><div class="buttons_src-pages-index-module"><a class="button button--primary button--lg" href="https://docs.google.com/spreadsheets/d/1Q9RTvk4ZPcHA1OfC63wVPHd_mpwROcK5oT1P3TDhDcc/edit?usp=sharing">View TAMUS Prohibited Entity Affiliates/Subsidiaries Repository</a></div></center>
+<div class="buttons_src-pages-index-module text-center"><a class="button button--primary button--lg" href="https://docs.google.com/spreadsheets/d/1Q9RTvk4ZPcHA1OfC63wVPHd_mpwROcK5oT1P3TDhDcc/edit?usp=sharing">View TAMUS Prohibited Entity Affiliates/Subsidiaries Repository</a></div>
 
 <br />
 
