@@ -111,7 +111,7 @@
    </xsl:template>
 
    <xsl:template match="param" mode="show.parameter">
-      <strong>
+      <strong title="{ @id }">
          <em>
             <xsl:text>[Assignment: </xsl:text>
             <xsl:apply-templates select="(value,label)"/>
@@ -121,7 +121,7 @@
    </xsl:template>
 
    <xsl:template match="param[select]" mode="show.parameter">
-      <strong>
+      <strong title="{ @id }">
          <em>
             <xsl:text expand-text="true">[Selection</xsl:text>
             <xsl:if test="select/@how-many = 'one-or-more'">
