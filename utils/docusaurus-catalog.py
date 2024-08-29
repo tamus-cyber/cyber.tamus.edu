@@ -96,7 +96,10 @@ def replace_links(text, replacements):
                 if (control_match[5] is not None):
                     control = "[%s%s](/catalog/%s/%s#%s)" % (replacements[key], control_match[5], control_match[2], control_match[1], control_match[1])
                 else:
-                    control = "[%s](/catalog/%s/%s#%s)" % (replacements[key], control_match[2], control_match[1], control_match[0])
+                    if (control_match[0] != control_match[1]):
+                        control = "[%s](/catalog/%s/%s#%s)" % (replacements[key], control_match[2], control_match[1], control_match[0])
+                    else:
+                        control = "[%s](/catalog/%s/%s)" % (replacements[key], control_match[2], control_match[1])
 
             return control
         else:
@@ -152,7 +155,10 @@ def process_withdrawn(links, labels):
             if (match[5] is not None):
                 control = "[%s%s](/catalog/%s/%s#%s)" % (labels[match[1]], match[5], match[2], match[1], match[1])
             else:
-                control = "[%s](/catalog/%s/%s#%s)" % (labels[match[0]], match[2], match[1], match[0])
+                if (match[0] != match[1]):
+                    control = "[%s](/catalog/%s/%s#%s)" % (labels[match[0]], match[2], match[1], match[0])
+                else:
+                    control = "[%s](/catalog/%s/%s)" % (labels[match[0]], match[2], match[1])
 
             if (link.get('rel') == "incorporated-into"):
                 dest.append("; incorporated into %s" % (control))
