@@ -47,18 +47,13 @@
   text-decoration: none;
 }
 
-.required-controls heading {
+.docs-doc-id-catalog\/required-controls heading {
   font-size: 1.2em;
   font-weight: 700;
   margin-bottom: inherit;
 }
 
-.required-controls .required-date,
-.required-controls .implementation-level {
-  text-align: center;
-}
-
-.required-controls .new-requirement {
+.docs-doc-id-catalog\/required-controls td:has(.new-requirement) {
   background-color: #ffff8f;
 }
 
