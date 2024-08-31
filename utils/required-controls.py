@@ -60,7 +60,10 @@ def get_link_to_control(control):
     title = control.get('title', '')
     pattern = r"((\w{2})(?:-)(\d{1,2})?)(?:\.(\d{1,2}))?(?:_smt\.(\w))?"
     match = re.search(pattern, id)
-    return "[%s %s](/catalog/%s/%s#%s)" % (label, title, match[2], match[1], match[0])
+    if (match[0] != match[1]):
+        return "[%s %s](/catalog/%s/%s#%s)" % (label, title, match[2], match[1], match[0])
+    else:
+        return "[%s %s](/catalog/%s/%s)" % (label, title, match[2], match[1])
 
 # Read the YAML file
 parser = argparse.ArgumentParser(description='Parse a YAML OSCAL catalog into a Docusaurus doc.')
