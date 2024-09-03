@@ -202,6 +202,14 @@ def process_control(control, odp, labels, f):
         if (prop.get('name') == "tx_baseline"):
             props.append(["Texas DIR Baseline", prop.get('value', '')])
 
+        if (prop.get('name') == "tx_privacy_baseline"):
+            if (prop.get('value')):
+                answer = "Yes"
+            else:
+                answer = "No"
+
+            props.append(["Texas DIR Privacy Baseline", answer])
+
         if (prop.get('name') == "tamus_baseline"):
             props.append(["Texas A&M System Baseline", prop.get('value', '')])
 
