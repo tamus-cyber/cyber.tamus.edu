@@ -27,5 +27,5 @@ These rules, standards and procedures guide the Texas A&M System Offices in deli
 
 | Rule/Standard/Procedure | Document Link
 |---|---|
-| Standard | [System Offices Security Controls Catalog](https://apps.system.tamus.edu/intranet/its/SO-Security-Control-Standards-Catalog.pdf)
+| Standard | [System Offices Security Controls Catalog](https://apps.system.tamus.edu/intranet/its/SO%20Security%20Controls%20Catalog.pdf)
 | Standard | [System Offices Employee Instant Messaging Standard](https://apps.system.tamus.edu/intranet/its/EmployeeInstantMessaging.pdf)
