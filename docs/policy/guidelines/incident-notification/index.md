@@ -1,5 +1,5 @@
 ---
-title: Incident Notification Guidelines
+title: Incident Notification
 ---
 
 :::note[These guidelines are effective January 9, 2024.]
