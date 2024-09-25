@@ -2,7 +2,7 @@
 title: Prohibited Technology
 ---
 
-:::note[These guidelines are effective October 1, 2024.]
+:::note[These guidelines are effective November 1, 2024.]
 
 :::
 
