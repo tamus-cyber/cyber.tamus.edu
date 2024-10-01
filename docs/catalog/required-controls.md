@@ -16,13 +16,13 @@ Shaded box denotes a new requirement since the last release.
 | [AC-1 Policy and Procedures](/catalog/ac/ac-01) | 2023-07-20 |  | O | L |
 | [AC-2 Account Management](/catalog/ac/ac-02) | 2023-07-20 |  | O | L |
 | [AC-2(3) Disable Accounts](/catalog/ac/ac-02#ac-02.03) | <span class="new-requirement">2024-11-18</span> |  | S | M |
-| [AC-2(7) Privileged User Accounts](/catalog/ac/ac-02#ac-02.07) |  | 2022-08-01 | O |  |
+| [AC-2(7) Privileged User Accounts](/catalog/ac/ac-02#ac-02.07) |  | 2024-08-28 | O |  |
 | [AC-3 Access Enforcement](/catalog/ac/ac-03) | 2023-01-20 |  | S | L |
 | [AC-3(7) Role-based Access Control](/catalog/ac/ac-03#ac-03.07) |  | 2022-08-01 | O S |  |
 | [AC-5 Separation of Duties](/catalog/ac/ac-05) | 2023-07-20 |  | O | M |
 | [AC-6 Least Privilege](/catalog/ac/ac-06) | 2023-07-20 |  | O | M |
 | [AC-7 Unsuccessful Logon Attempts](/catalog/ac/ac-07) | 2023-07-20 |  | S | L |
-| [AC-8 System Use Notification](/catalog/ac/ac-08) | 2023-01-20 | 2022-08-01 | O S | L |
+| [AC-8 System Use Notification](/catalog/ac/ac-08) | 2023-01-20 |  | O S | L |
 | [AC-11 Device Lock](/catalog/ac/ac-11) |  | <span class="new-requirement">2024-02-01</span> | S |  |
 | [AC-14 Permitted Actions Without Identification or Authentication](/catalog/ac/ac-14) | 2023-01-20 |  | O | L |
 | [AC-17 Remote Access](/catalog/ac/ac-17) | 2023-07-20 |  | O | L |
@@ -102,9 +102,12 @@ Shaded box denotes a new requirement since the last release.
 | [IR-1 Policy and Procedures](/catalog/ir/ir-01) | 2023-07-20 |  | O | L |
 | [IR-2 Incident Response Training](/catalog/ir/ir-02) | 2023-07-20 |  | O | L |
 | [IR-3 Incident Response Testing](/catalog/ir/ir-03) | 2023-07-20 |  | O | M |
-| [IR-4 Incident Handling](/catalog/ir/ir-04) | 2023-07-20 |  | O | L |
+| [IR-4 Incident Handling](/catalog/ir/ir-04) | 2023-07-20 | 2024-08-28 | O | L |
+| [IR-4(8) Correlation with External Organizations](/catalog/ir/ir-04#ir-04.08) |  | 2024-08-28 | O |  |
+| [IR-4(14) Security Operations Center](/catalog/ir/ir-04#ir-04.14) |  | 2024-08-28 | O S |  |
 | [IR-5 Incident Monitoring](/catalog/ir/ir-05) | 2023-07-20 |  | O | L |
 | [IR-6 Incident Reporting](/catalog/ir/ir-06) | 2023-07-20 | 2022-08-01 | O | L |
+| [IR-6(1) Automated Reporting](/catalog/ir/ir-06#ir-06.01) |  | 2024-08-28 | O |  |
 | [IR-7 Incident Response Assistance](/catalog/ir/ir-07) | 2023-07-20 |  | O | L |
 | [IR-8 Incident Response Plan](/catalog/ir/ir-08) | 2023-07-20 |  | O | L |
 | [IR-9 Information Spillage Response](/catalog/ir/ir-09) | 2023-07-20 |  | O |  |
@@ -165,11 +168,10 @@ Shaded box denotes a new requirement since the last release.
 | [PS-8 Personnel Sanctions](/catalog/ps/ps-08) | 2023-01-20 |  | O | L |
 | [PS-9 Position Descriptions](/catalog/ps/ps-09) | <span class="new-requirement">2024-11-18</span> |  | O | L |
 | <heading>Personally Identifiable Information Processing and Transparency (PT)</heading> |||||
-| [PT-3 Personally Identifiable Information Processing Purposes](/catalog/pt/pt-03) |  | 2022-08-01 | O |  |
 | <heading>Risk Assessment (RA)</heading> |||||
 | [RA-1 Policy and Procedures](/catalog/ra/ra-01) | 2023-07-20 |  | O | L |
 | [RA-2 Security Categorization](/catalog/ra/ra-02) | 2023-07-20 | 2022-08-01 | O | L |
-| [RA-3 Risk Assessment](/catalog/ra/ra-03) | 2023-07-20 |  | O | L |
+| [RA-3 Risk Assessment](/catalog/ra/ra-03) | 2023-07-20 | <span class="new-requirement">2024-08-28</span> | O | L |
 | [RA-3(1) Supply Chain Risk Assessment](/catalog/ra/ra-03#ra-03.01) | 2023-07-20 |  | O | L |
 | [RA-5 Vulnerability Monitoring and Scanning](/catalog/ra/ra-05) | 2023-07-20 |  | O | L |
 | [RA-5(2) Update Vulnerabilities to Be Scanned](/catalog/ra/ra-05#ra-05.02) | <span class="new-requirement">2024-11-18</span> |  | O | L |
@@ -206,6 +208,7 @@ Shaded box denotes a new requirement since the last release.
 | [SI-5 Security Alerts, Advisories, and Directives](/catalog/si/si-05) | 2023-01-20 |  | O | L |
 | [SI-10 Information Input Validation](/catalog/si/si-10) | 2023-07-20 |  | S | M |
 | [SI-12 Information Management and Retention](/catalog/si/si-12) | 2023-07-20 |  | O | L |
+| [SI-12(1) Limit Personally Identifiable Information Elements](/catalog/si/si-12#si-12.01) |  | 2022-08-01 | O |  |
 | <heading>Supply Chain Risk Management (SR)</heading> |||||
 | [SR-1 Policy and Procedures](/catalog/sr/sr-01) | 2023-07-20 |  | O | L |
 | [SR-2 Supply Chain Risk Management Plan](/catalog/sr/sr-02) | 2023-07-20 |  | O | L |
