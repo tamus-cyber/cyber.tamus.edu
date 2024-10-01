@@ -60,6 +60,9 @@ def substitute_insert_tags(prose, params, odp):
         if (param_id in odp):
             param = odp[param_id]
 
+            if 'values' in param:
+                return "<strong title=\"%s\"> <em>[TAMUS Assignment: %s]</em> </strong>" % (param['id'], '; '.join(param['values']))  # Replace with the 'values' of the matching param
+        
             if 'select' in param:
                 how_many = ""
 
