@@ -8,7 +8,7 @@ title: Incident Notification Guidelines
 
 This document provides guidance to Texas A&M University System members for submitting incident notifications to Texas A&M System Cybersecurity.
 
-Title 1 Texas Administrative Code § 202.1 defines "security incident" as "an event which results in the accidental or deliberate unauthorized access, loss, disclosure, modification, disruption, or destruction of information or information resources."[^1] Texas A&M System security control standard IR-6 requires system members to notify Texas A&M System Cybersecurity and consult with the System Chief Information Security Officer regarding information security incidents involving their information and information systems, whether managed by the member, contractor, or other source. This includes privacy incidents that do not impact information systems and any incidents involving industrial control systems or operational technology.
+Title 1 Texas Administrative Code § 202.1 defines "security incident" as "an event which results in the accidental or deliberate unauthorized access, loss, disclosure, modification, disruption, or destruction of information or information resources."[^1] Texas A&M System security control standard IR-6 requires system members to notify Texas A&M System Cybersecurity and consult with the System Chief Information Security Officer regarding incidents involving their information and information systems, whether managed by the member, contractor, or other source. This includes privacy incidents that do not impact information systems and any incidents involving industrial control systems or operational technology.
 
 These guidelines support Texas A&M System Cybersecurity in executing its mission objectives and provide the following benefits:
 
@@ -20,7 +20,7 @@ These guidelines support Texas A&M System Cybersecurity in executing its mission
 
 ## Notification Requirement
 
-System members must report information security incidents where the confidentiality, integrity, or availability of a member high-impact information system, or a system processing confidential information, is potentially compromised.
+System members must report incidents where the confidentiality, integrity, or availability of a member high-impact information system, or a system processing confidential information, is potentially compromised.
 
 System members shall notify Texas A&M System Cybersecurity with the required data elements, as well as any other available information, within **12 hours** of being identified by the member or Texas A&M System Cyber Operations.
 
@@ -34,7 +34,7 @@ System members determine which officials of the member institution are to be not
 
 4. Chief Research Officer (CRO) _(when the compromised/potentially compromised information includes research data)_
 
-5. Department Head / Information Resources Custodian of affected information resources
+5. Department Head / Information Resource Custodian of affected information resources
 
 Notifications to affected third parties (e.g., vendors, partners) and affected individuals shall be made in accordance with Tex. Bus. & Comm. Code § 521.002[^3] and guidance provided by the System Office of General Counsel.
 
