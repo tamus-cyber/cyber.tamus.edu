@@ -1,8 +1,6 @@
 ---
-title: Prohibited Technologies Resources
+title: Prohibited Technology Repository
 ---
-
-# Prohibited Technologies Resources
 
 ## Guidance
 
@@ -15,8 +13,6 @@ To assist A&M System members in making procurement and implementation decisions 
 Submissions to the Prohibited Entry Affiliates/Subsidiaries Repository are crowd-sourced from Texas A&M System members and not validated by Texas A&M System Cybersecurity.
 
 :::
-
-## Prohibited Entity Affiliates/Subsidiaries Repository
 
 <div class="buttons_src-pages-index-module text-center"><a class="button button--primary button--lg" href="https://docs.google.com/spreadsheets/d/1Q9RTvk4ZPcHA1OfC63wVPHd_mpwROcK5oT1P3TDhDcc/edit?usp=sharing">View TAMUS Prohibited Entity Affiliates/Subsidiaries Repository</a></div>
 
