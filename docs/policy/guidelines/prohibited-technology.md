@@ -2,25 +2,25 @@
 title: Prohibited Technology
 ---
 
-:::note[These guidelines are effective November 1, 2024.]
+:::note[These guidelines are effective October 7, 2024.]
 
 :::
 
 ## Background
 
-On December 7, 2022, Governor Greg Abbott required all state agencies to ban the video-sharing application TikTok from all state-owned and state-issued devices and networks over the Chinese Communist Party’s ability to use the application for surveilling Texans.  Governor Abbott also directed the Texas Department of Public Safety (DPS) and the Texas Department of Information Resources (DIR) to develop a plan providing state agencies guidance on managing personal devices used to conduct state business.  Following the issuance of the Governor’s directive, the 88th Texas Legislature passed Senate Bill 1893[^1], which prohibits the use of covered applications on governmental entity devices.
+On December 7, 2022, Governor Greg Abbott issued a directive requiring all state agencies to ban the video-sharing application TikTok from all state-owned and state-issued devices and networks over the Chinese Communist Party’s ability to use the application for surveilling Texans.  Governor Abbott also directed the Texas Department of Public Safety (DPS) and the Texas Department of Information Resources (DIR) to develop a plan providing state agencies guidance on managing personal devices used to conduct state business.  Following the issuance of the Governor’s directive, the 88th Texas Legislature passed Senate Bill 1893, which prohibits the use of covered applications on governmental entity devices.
 
 ## Guidance Statement
 
 The guidance issued by DPS and DIR requires The Texas A&M University System (**“system”**) to remove covered applications and prohibited technologies which are on the DIR prohibited technology list (**“Prohibited Technology”**) from state-owned and state-issued devices and block access to prohibited technologies from state-owned networks.  
 
-This plan is adopted under the authority of System Policy 29.01, _Information Resources_[^2], and applies to all system employees, contractors and users of system member networks.  All system employees, contractors and users are responsible for complying with this plan.  In this plan, **“prohibit”** is to not allow by policy and **“prevent”** is to have a technical control in place unless an exception exists.
+This plan is adopted under the authority of System Policy 29.01, _Information Resources_[^2], and applies to all system employees, contractors, and users of system member networks.  All system employees, contractors, and users are responsible for complying with this plan.  In this plan, **“prohibit”** is to not allow by policy and **“prevent”** is to have a technical control in place unless an exception exists.
 
 ## Exceptions
 
-All exceptions to this plan are treated as high residual risk decisions as defined in 1 TAC Tex. Admin. Code § 202.75(4)(B)[^3] and must be approved by the institution of higher education head and reported to DIR using established member procedures for processing exceptions.  This authority may not be delegated.  
+All exceptions to this plan are treated as high residual risk decisions as defined in 1 Tex. Admin. Code § 202.75(4)(B)[^3] and must be approved by the institution of higher education head and reported to DIR using established member procedures for processing exceptions.  This authority may not be delegated.  
 
-Covered applications are defined as (1) the social media service TikTok or any successor application or service developed or provided by ByteDance Limited, or an entity owned by ByteDance Limited, and (2) a social media application or service specified by proclamation of the governor under Tex. Gov’t Code § 620.005[^4].
+Covered applications are defined as (1) the social media service TikTok or any successor application or service developed or provided by ByteDance Limited, or an entity owned by ByteDance Limited, and (2) social media applications or services specified by proclamation of the governor under Tex. Gov’t Code § 620.005[^4].
 
 Exceptions to **covered applications** are limited to the following categories:
 
