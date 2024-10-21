@@ -17,7 +17,7 @@ Shaded box denotes a new requirement since the last release.
 | [AC-2 Account Management](/catalog/ac/ac-02) | 2023-07-20 | L |  |  | O |
 | [AC-2(3) Disable Accounts](/catalog/ac/ac-02#ac-02.03) | <span class="new-requirement">2024-11-18</span> | M |  |  | S |
 | [AC-2(5) Inactivity Logout](/catalog/ac/ac-02#ac-02.05) |  |  | <span class="new-requirement">2025-06-01</span> | M | O S |
-| [AC-2(7) Privileged User Accounts](/catalog/ac/ac-02#ac-02.07) |  |  | <span class="new-requirement">2024-08-28</span> | M | O |
+| [AC-2(7) Privileged User Accounts](/catalog/ac/ac-02#ac-02.07) |  |  | 2022-08-01 | M | O |
 | [AC-2(13) Disable Accounts for High-risk Individuals](/catalog/ac/ac-02#ac-02.13) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [AC-3 Access Enforcement](/catalog/ac/ac-03) | 2023-01-20 | L |  |  | S |
 | [AC-3(7) Role-based Access Control](/catalog/ac/ac-03#ac-03.07) |  |  | 2022-08-01 | M | O S |
@@ -53,7 +53,7 @@ Shaded box denotes a new requirement since the last release.
 | [AT-2 Literacy Training and Awareness](/catalog/at/at-02) | 2023-07-20 | L | <span class="new-requirement">2024-09-01</span> | L | O |
 | [AT-2(2) Insider Threat](/catalog/at/at-02#at-02.02) | <span class="new-requirement">2024-11-18</span> | L | <span class="new-requirement">2024-09-01</span> | L | O |
 | [AT-2(3) Social Engineering and Mining](/catalog/at/at-02#at-02.03) |  |  | <span class="new-requirement">2024-09-01</span> | L | O |
-| [AT-3 Role-based Training](/catalog/at/at-03) | 2023-07-20 | L |  |  | O |
+| [AT-3 Role-based Training](/catalog/at/at-03) | 2023-07-20 | L | <span class="new-requirement">2024-09-01</span> | L | O |
 | [AT-4 Training Records](/catalog/at/at-04) | 2023-07-20 | L | <span class="new-requirement">2024-09-01</span> | L | O |
 | <heading>Audit and Accountability (AU)</heading> |||||
 | [AU-1 Policy and Procedures](/catalog/au/au-01) | 2023-07-20 | L |  |  | O |
