@@ -81,6 +81,13 @@ const config = {
     ({
       // Replace with your project's social card
       //image: 'img/docusaurus-social-card.jpg',
+      announcementBar: {
+        id: 'dev_site',
+        content:
+          '⚠️ This is a development version of the website and is not officially released content ⚠️',
+        backgroundColor: '#ff0000',
+        textColor: '#ffffff',
+      },
       navbar: {
         //title: 'Cybersecurity Standards',
         logo: {
