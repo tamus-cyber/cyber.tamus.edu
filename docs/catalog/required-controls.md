@@ -32,7 +32,7 @@ Yellow shaded box denotes a new requirement since the last release.
 | [AC-6(10) Prohibit Non-privileged Users from Executing Privileged Functions](/catalog/ac/ac-06#ac-06.10) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [AC-7 Unsuccessful Logon Attempts](/catalog/ac/ac-07) | 2023-07-20 | L |  |  | S |
 | [AC-8 System Use Notification](/catalog/ac/ac-08) | 2023-01-20 | L |  |  | O S |
-| [AC-11 Device Lock](/catalog/ac/ac-11) |  |  | <span class="new-requirement">2024-02-01</span> | L | S |
+| [AC-11 Device Lock](/catalog/ac/ac-11) |  |  | 2024-02-01 | L | S |
 | [AC-11(1) Pattern-hiding Displays](/catalog/ac/ac-11#ac-11.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [AC-12 Session Termination](/catalog/ac/ac-12) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [AC-14 Permitted Actions Without Identification or Authentication](/catalog/ac/ac-14) | 2023-01-20 | L |  |  | O |
@@ -96,7 +96,7 @@ Yellow shaded box denotes a new requirement since the last release.
 | [CM-8 System Component Inventory](/catalog/cm/cm-08) | 2023-07-20 | L |  |  | O |
 | [CM-8(1) Updates During Installation and Removal](/catalog/cm/cm-08#cm-08.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [CM-10 Software Usage Restrictions](/catalog/cm/cm-10) | 2023-01-20 | L | 2022-08-01 | L | O |
-| [CM-11 User-installed Software](/catalog/cm/cm-11) | 2023-01-20 | L | <span class="new-requirement">2024-02-01</span> | L | O |
+| [CM-11 User-installed Software](/catalog/cm/cm-11) | 2023-01-20 | L | 2024-02-01 | L | O |
 | [CM-12 Information Location](/catalog/cm/cm-12) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | <heading>Contingency Planning (CP)</heading> |||||
 | [CP-1 Policy and Procedures](/catalog/cp/cp-01) | 2023-07-20 | L |  |  | O |
