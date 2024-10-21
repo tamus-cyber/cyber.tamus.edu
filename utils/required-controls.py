@@ -129,7 +129,7 @@ f.write("title: Required Security Control Standards\n")
 f.write("sidebar_position: 2\n")
 f.write("---\n\n")
 
-f.write(":::note\n\nShaded box denotes a new requirement since the last release.\n\n:::\n\n")
+f.write(":::note\n\nYellow shaded box denotes a new requirement since the last release.\n\n:::\n\n")
 
 f.write(markdown_table)
 

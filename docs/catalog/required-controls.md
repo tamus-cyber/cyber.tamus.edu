@@ -6,7 +6,7 @@ sidebar_position: 2
 
 :::note
 
-Shaded box denotes a new requirement since the last release.
+Yellow shaded box denotes a new requirement since the last release.
 
 :::
 
