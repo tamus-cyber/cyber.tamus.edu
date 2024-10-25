@@ -13,7 +13,7 @@ const CyberOpsFeatureList = [
       </>
     ),
     ctaText: 'Contact Us',
-    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/75',
+    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/111/create/591',
   },
   {
     title: 'Incident Response',
@@ -25,7 +25,7 @@ const CyberOpsFeatureList = [
       </>
     ),
     ctaText: 'Contact Us',
-    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/75',
+    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/111/create/591',
   },
 ];
 
@@ -40,7 +40,7 @@ const CyberSharedServicesFeatureList = [
       </>
     ),
     ctaText: 'Contact Us',
-    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/75',
+    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/111/create/591',
   },
   {
     title: 'Information Sharing & Analysis',
@@ -52,7 +52,7 @@ const CyberSharedServicesFeatureList = [
       </>
     ),
     ctaText: 'Contact Us',
-    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/75',
+    ctaLink: 'https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/111/create/591',
   },
 ];
 
