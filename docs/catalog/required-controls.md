@@ -16,37 +16,19 @@ Yellow shaded box denotes a new requirement since the last release.
 | [AC-1 Policy and Procedures](/catalog/ac/ac-01) | 2023-07-20 | L |  |  | O |
 | [AC-2 Account Management](/catalog/ac/ac-02) | 2023-07-20 | L |  |  | O |
 | [AC-2(3) Disable Accounts](/catalog/ac/ac-02#ac-02.03) | <span class="new-requirement">2024-11-18</span> | M |  |  | S |
-| [AC-2(5) Inactivity Logout](/catalog/ac/ac-02#ac-02.05) |  |  | <span class="new-requirement">2025-06-01</span> | M | O S |
 | [AC-2(7) Privileged User Accounts](/catalog/ac/ac-02#ac-02.07) |  |  | 2022-08-01 | M | O |
-| [AC-2(13) Disable Accounts for High-risk Individuals](/catalog/ac/ac-02#ac-02.13) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [AC-3 Access Enforcement](/catalog/ac/ac-03) | 2023-01-20 | L |  |  | S |
 | [AC-3(7) Role-based Access Control](/catalog/ac/ac-03#ac-03.07) |  |  | 2022-08-01 | M | O S |
-| [AC-4 Information Flow Enforcement](/catalog/ac/ac-04) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [AC-5 Separation of Duties](/catalog/ac/ac-05) | 2023-07-20 | M |  |  | O |
 | [AC-6 Least Privilege](/catalog/ac/ac-06) | 2023-07-20 | M |  |  | O |
-| [AC-6(1) Authorize Access to Security Functions](/catalog/ac/ac-06#ac-06.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [AC-6(2) Non-privileged Access for Nonsecurity Functions](/catalog/ac/ac-06#ac-06.02) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [AC-6(5) Privileged Accounts](/catalog/ac/ac-06#ac-06.05) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [AC-6(7) Review of User Privileges](/catalog/ac/ac-06#ac-06.07) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [AC-6(9) Log Use of Privileged Functions](/catalog/ac/ac-06#ac-06.09) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
-| [AC-6(10) Prohibit Non-privileged Users from Executing Privileged Functions](/catalog/ac/ac-06#ac-06.10) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [AC-7 Unsuccessful Logon Attempts](/catalog/ac/ac-07) | 2023-07-20 | L |  |  | S |
 | [AC-8 System Use Notification](/catalog/ac/ac-08) | 2023-01-20 | L |  |  | O S |
 | [AC-11 Device Lock](/catalog/ac/ac-11) |  |  | 2024-02-01 | L | S |
-| [AC-11(1) Pattern-hiding Displays](/catalog/ac/ac-11#ac-11.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
-| [AC-12 Session Termination](/catalog/ac/ac-12) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [AC-14 Permitted Actions Without Identification or Authentication](/catalog/ac/ac-14) | 2023-01-20 | L |  |  | O |
 | [AC-17 Remote Access](/catalog/ac/ac-17) | 2023-07-20 | L |  |  | O |
-| [AC-17(3) Managed Access Control Points](/catalog/ac/ac-17#ac-17.03) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
-| [AC-17(4) Privileged Commands and Access](/catalog/ac/ac-17#ac-17.04) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [AC-18 Wireless Access](/catalog/ac/ac-18) | 2023-07-20 | L |  |  | O |
-| [AC-18(1) Authentication and Encryption](/catalog/ac/ac-18#ac-18.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
-| [AC-18(3) Disable Wireless Networking](/catalog/ac/ac-18#ac-18.03) |  |  | <span class="new-requirement">2025-06-01</span> | M | O S |
 | [AC-19 Access Control for Mobile Devices](/catalog/ac/ac-19) | 2023-07-20 | L | 2022-12-19 | L | O |
-| [AC-19(5) Full Device or Container-based Encryption](/catalog/ac/ac-19#ac-19.05) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [AC-20 Use of External Systems](/catalog/ac/ac-20) | 2023-07-20 | L |  |  | O |
-| [AC-20(1) Limits on Authorized Use](/catalog/ac/ac-20#ac-20.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [AC-20(2) Portable Storage Devices — Restricted Use](/catalog/ac/ac-20#ac-20.02) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [AC-22 Publicly Accessible Content](/catalog/ac/ac-22) | 2023-01-20 | L |  |  | O |
 | <heading>Awareness and Training (AT)</heading> |||||
 | [AT-1 Policy and Procedures](/catalog/at/at-01) | 2023-07-20 | L | <span class="new-requirement">2024-09-01</span> | L | O |
@@ -59,15 +41,11 @@ Yellow shaded box denotes a new requirement since the last release.
 | [AU-1 Policy and Procedures](/catalog/au/au-01) | 2023-07-20 | L |  |  | O |
 | [AU-2 Event Logging](/catalog/au/au-02) | 2023-07-20 | L |  |  | O |
 | [AU-3 Content of Audit Records](/catalog/au/au-03) | 2023-01-20 | L |  |  | S |
-| [AU-3(1) Additional Audit Information](/catalog/au/au-03#au-03.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [AU-4 Audit Log Storage Capacity](/catalog/au/au-04) | 2023-07-20 | L |  |  | O S |
 | [AU-5 Response to Audit Logging Process Failures](/catalog/au/au-05) | 2023-07-20 | L |  |  | S |
 | [AU-6 Audit Record Review, Analysis, and Reporting](/catalog/au/au-06) | 2023-07-20 | L |  |  | O |
-| [AU-6(3) Correlate Audit Record Repositories](/catalog/au/au-06#au-06.03) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [AU-7 Audit Record Reduction and Report Generation](/catalog/au/au-07) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [AU-8 Time Stamps](/catalog/au/au-08) | 2023-07-20 | L |  |  | S |
 | [AU-9 Protection of Audit Information](/catalog/au/au-09) | 2023-07-20 | L |  |  | S |
-| [AU-9(4) Access by Subset of Privileged Users](/catalog/au/au-09#au-09.04) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [AU-11 Audit Record Retention](/catalog/au/au-11) | 2023-07-20 | L |  |  | O |
 | [AU-12 Audit Record Generation](/catalog/au/au-12) | 2023-07-20 | L |  |  | S |
 | <heading>Assessment, Authorization, and Monitoring (CA)</heading> |||||
@@ -84,20 +62,15 @@ Yellow shaded box denotes a new requirement since the last release.
 | <heading>Configuration Management (CM)</heading> |||||
 | [CM-1 Policy and Procedures](/catalog/cm/cm-01) | 2023-07-20 | L |  |  | O |
 | [CM-2 Baseline Configuration](/catalog/cm/cm-02) | 2023-07-20 | L |  |  | O |
-| [CM-2(7) Configure Systems and Components for High-risk Areas](/catalog/cm/cm-02#cm-02.07) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [CM-3 Configuration Change Control](/catalog/cm/cm-03) | <span class="new-requirement">2024-11-18</span> | M | 2022-08-01 | M | O |
 | [CM-3(2) Testing, Validation, and Documentation of Changes](/catalog/cm/cm-03#cm-03.02) |  |  | 2022-08-01 | M | O |
 | [CM-4 Impact Analyses](/catalog/cm/cm-04) | 2023-07-20 | L |  |  | O |
-| [CM-4(2) Verification of Controls](/catalog/cm/cm-04#cm-04.02) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [CM-5 Access Restrictions for Change](/catalog/cm/cm-05) | 2023-07-20 | L |  |  | O |
 | [CM-6 Configuration Settings](/catalog/cm/cm-06) | 2023-07-20 | L | 2022-08-01 | M | O S |
 | [CM-7 Least Functionality](/catalog/cm/cm-07) | 2023-07-20 | L |  |  | O S |
-| [CM-7(1) Periodic Review](/catalog/cm/cm-07#cm-07.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | O S |
 | [CM-8 System Component Inventory](/catalog/cm/cm-08) | 2023-07-20 | L |  |  | O |
-| [CM-8(1) Updates During Installation and Removal](/catalog/cm/cm-08#cm-08.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [CM-10 Software Usage Restrictions](/catalog/cm/cm-10) | 2023-01-20 | L | 2022-08-01 | L | O |
 | [CM-11 User-installed Software](/catalog/cm/cm-11) | 2023-01-20 | L | 2024-02-01 | L | O |
-| [CM-12 Information Location](/catalog/cm/cm-12) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | <heading>Contingency Planning (CP)</heading> |||||
 | [CP-1 Policy and Procedures](/catalog/cp/cp-01) | 2023-07-20 | L |  |  | O |
 | [CP-2 Contingency Plan](/catalog/cp/cp-02) | 2023-07-20 | L |  |  | O |
@@ -116,10 +89,7 @@ Yellow shaded box denotes a new requirement since the last release.
 | [IA-2 Identification and Authentication (Organizational Users)](/catalog/ia/ia-02) | 2023-01-20 | L |  |  | O S |
 | [IA-2(1) Multi-factor Authentication to Privileged Accounts](/catalog/ia/ia-02#ia-02.01) | 2024-11-18 | L | 2021-09-13 | L | S |
 | [IA-2(2) Multi-factor Authentication to Non-privileged Accounts](/catalog/ia/ia-02#ia-02.02) | 2023-07-20 | L |  |  | S |
-| [IA-2(8) Access to Accounts — Replay Resistant](/catalog/ia/ia-02#ia-02.08) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
-| [IA-3 Device Identification and Authentication](/catalog/ia/ia-03) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [IA-4 Identifier Management](/catalog/ia/ia-04) | 2023-07-20 | L |  |  | O |
-| [IA-4(4) Identify User Status](/catalog/ia/ia-04#ia-04.04) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [IA-5 Authenticator Management](/catalog/ia/ia-05) | 2023-07-20 | L |  |  | O S |
 | [IA-5(1) Password-based Authentication](/catalog/ia/ia-05#ia-05.01) | <span class="new-requirement">2024-11-18</span> | L |  |  | O S |
 | [IA-5(9) Federated Credential Management](/catalog/ia/ia-05#ia-05.09) |  |  | <span class="new-requirement">2025-01-01</span> | L | O |
@@ -146,18 +116,12 @@ Yellow shaded box denotes a new requirement since the last release.
 | <heading>Maintenance (MA)</heading> |||||
 | [MA-1 Policy and Procedures](/catalog/ma/ma-01) | 2023-07-20 | L |  |  | O |
 | [MA-2 Controlled Maintenance](/catalog/ma/ma-02) | 2023-07-20 | L |  |  | O |
-| [MA-3 Maintenance Tools](/catalog/ma/ma-03) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [MA-3(1) Inspect Tools](/catalog/ma/ma-03#ma-03.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [MA-3(2) Inspect Media](/catalog/ma/ma-03#ma-03.02) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [MA-3(3) Prevent Unauthorized Removal](/catalog/ma/ma-03#ma-03.03) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [MA-4 Nonlocal Maintenance](/catalog/ma/ma-04) | 2023-07-20 | L |  |  | O |
 | [MA-5 Maintenance Personnel](/catalog/ma/ma-05) | 2023-01-20 | L |  |  | O |
 | <heading>Media Protection (MP)</heading> |||||
 | [MP-1 Policy and Procedures](/catalog/mp/mp-01) | 2023-07-20 | L |  |  | O |
 | [MP-2 Media Access](/catalog/mp/mp-02) | 2023-01-20 | L |  |  | O |
 | [MP-3 Media Marking](/catalog/mp/mp-03) |  |  | 2022-08-01 | M | O |
-| [MP-4 Media Storage](/catalog/mp/mp-04) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [MP-5 Media Transport](/catalog/mp/mp-05) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [MP-6 Media Sanitization](/catalog/mp/mp-06) | 2023-07-20 | L |  |  | O |
 | [MP-6(1) Review, Approve, Track, Document, and Verify](/catalog/mp/mp-06#mp-06.01) | <span class="new-requirement">2024-11-18</span> | H |  |  | O |
 | [MP-7 Media Use](/catalog/mp/mp-07) | 2023-07-20 | L |  |  | O |
@@ -165,8 +129,6 @@ Yellow shaded box denotes a new requirement since the last release.
 | [PE-1 Policy and Procedures](/catalog/pe/pe-01) | 2023-07-20 | L |  |  | O |
 | [PE-2 Physical Access Authorizations](/catalog/pe/pe-02) | 2023-01-20 | L |  |  | O |
 | [PE-3 Physical Access Control](/catalog/pe/pe-03) | 2023-07-20 | L |  |  | O |
-| [PE-4 Access Control for Transmission](/catalog/pe/pe-04) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
-| [PE-5 Access Control for Output Devices](/catalog/pe/pe-05) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [PE-6 Monitoring Physical Access](/catalog/pe/pe-06) | 2023-01-20 | L |  |  | O |
 | [PE-6(3) Video Surveillance](/catalog/pe/pe-06#pe-06.03) |  |  | 2022-08-01 | M | O |
 | [PE-8 Visitor Access Records](/catalog/pe/pe-08) | 2023-07-20 | L |  |  | O |
@@ -230,30 +192,21 @@ Yellow shaded box denotes a new requirement since the last release.
 | [SA-22 Unsupported System Components](/catalog/sa/sa-22) | 2023-07-20 | L |  |  | O |
 | <heading>System and Communications Protection (SC)</heading> |||||
 | [SC-1 Policy and Procedures](/catalog/sc/sc-01) | 2023-07-20 | L |  |  | O |
-| [SC-4 Information in Shared System Resources](/catalog/sc/sc-04) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [SC-5 Denial-of-service Protection](/catalog/sc/sc-05) | 2023-07-20 | L |  |  | S |
 | [SC-7 Boundary Protection](/catalog/sc/sc-07) | 2023-07-20 | L |  |  | S |
-| [SC-7(5) Deny by Default — Allow by Exception](/catalog/sc/sc-07#sc-07.05) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [SC-8 Transmission Confidentiality and Integrity](/catalog/sc/sc-08) | 2023-01-20 | M |  |  | S |
-| [SC-8(1) Cryptographic Protection](/catalog/sc/sc-08#sc-08.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
-| [SC-10 Network Disconnect](/catalog/sc/sc-10) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [SC-12 Cryptographic Key Establishment and Management](/catalog/sc/sc-12) | 2023-01-20 | L |  |  | O S |
 | [SC-13 Cryptographic Protection](/catalog/sc/sc-13) | 2023-07-20 | L |  |  | S |
 | [SC-15 Collaborative Computing Devices and Applications](/catalog/sc/sc-15) | 2023-07-20 | L |  |  | S |
-| [SC-18 Mobile Code](/catalog/sc/sc-18) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [SC-20 Secure Name/Address Resolution Service (Authoritative Source)](/catalog/sc/sc-20) | 2023-01-20 | L |  |  | S |
 | [SC-21 Secure Name/Address Resolution Service (Recursive or Caching Resolver)](/catalog/sc/sc-21) | 2023-01-20 | L |  |  | S |
 | [SC-22 Architecture and Provisioning for Name/Address Resolution Service](/catalog/sc/sc-22) | 2023-01-20 | L |  |  | S |
-| [SC-23 Session Authenticity](/catalog/sc/sc-23) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
-| [SC-28 Protection of Information at Rest](/catalog/sc/sc-28) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
-| [SC-28(1) Cryptographic Protection](/catalog/sc/sc-28#sc-28.01) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [SC-39 Process Isolation](/catalog/sc/sc-39) | 2023-01-20 | L |  |  | S |
 | <heading>System and Information Integrity (SI)</heading> |||||
 | [SI-1 Policy and Procedures](/catalog/si/si-01) | 2023-07-20 | L |  |  | O |
 | [SI-2 Flaw Remediation](/catalog/si/si-02) | 2023-01-20 | L |  |  | O |
 | [SI-3 Malicious Code Protection](/catalog/si/si-03) | 2023-07-20 | L |  |  | O S |
 | [SI-4 System Monitoring](/catalog/si/si-04) | 2023-07-20 | L |  |  | O S |
-| [SI-4(4) Inbound and Outbound Communications Traffic](/catalog/si/si-04#si-04.04) |  |  | <span class="new-requirement">2025-06-01</span> | M | S |
 | [SI-5 Security Alerts, Advisories, and Directives](/catalog/si/si-05) | 2023-01-20 | L |  |  | O |
 | [SI-10 Information Input Validation](/catalog/si/si-10) | 2023-07-20 | M |  |  | S |
 | [SI-12 Information Management and Retention](/catalog/si/si-12) | 2023-07-20 | L |  |  | O |
@@ -263,6 +216,5 @@ Yellow shaded box denotes a new requirement since the last release.
 | [SR-2 Supply Chain Risk Management Plan](/catalog/sr/sr-02) | 2023-07-20 | L |  |  | O |
 | [SR-3 Supply Chain Controls and Processes](/catalog/sr/sr-03) | 2023-07-20 | L |  |  | O S |
 | [SR-5 Acquisition Strategies, Tools, and Methods](/catalog/sr/sr-05) | 2023-07-20 | L |  |  | O |
-| [SR-6 Supplier Assessments and Reviews](/catalog/sr/sr-06) |  |  | <span class="new-requirement">2025-06-01</span> | M | O |
 | [SR-8 Notification Agreements](/catalog/sr/sr-08) | 2023-07-20 | L |  |  | O |
 | [SR-12 Component Disposal](/catalog/sr/sr-12) | 2023-07-20 | L |  |  | O |
