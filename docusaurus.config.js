@@ -124,7 +124,21 @@ const config = {
             ],
           },
           {to: '/blog/', label: 'Blog', position: 'left'},
-          {to: '/contact/', label: 'Contact', position: 'left'},
+          {
+            type: 'dropdown',
+            to: '/contact/',
+            label: 'Contact',
+            position: 'left',
+            items: [
+              {
+                to: '/contact/',
+                label: 'Contact Us',
+              },
+              {
+                to: '/vuln-report/',
+                label: 'Report a Vulnerability',
+              }],
+          },
           {
             href: 'https://portal.cyber.tamus.edu/',
             label: 'ISAO Portal',
