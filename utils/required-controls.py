@@ -13,13 +13,14 @@ def process_control(control, filtered_controls):
     dict['tx_required_by'] = ""
     dict['tx_baseline'] = ""
     dict['tamus_required_by'] = ""
+    dict['tamus_baseline'] = ""
 
     if 'props' in control:
         for prop in control['props']:
             if (prop.get('name') == "implementation-level"):
                 implementation.append(prop.get('value', '')[0].upper())
 
-            if (prop.get('name') == "tx_baseline"):
+            if (prop.get('name') in ['tx_baseline', 'tamus_baseline']):
                 dict[prop.get('name')] = f"{prop.get('value', '')[0]}"
 
             if (prop.get('name') in ['tx_required_by', 'tamus_required_by', 'tx_new_requirement', 'tamus_new_requirement']):
@@ -110,14 +111,14 @@ for group in yaml_content['catalog']['groups']:
             filtered_controls = process_control(enhancement, filtered_controls)
 
 # Generate Markdown table
-markdown_table = "| Title | Texas DIR Required By | Texas A&M System Required By | Org/Info System Control | DIR Baseline |\n"
-markdown_table += "|:-------|:-----------:|:-----------:|:------------:|:------------:|\n"
+markdown_table = "| Title | Texas DIR Required By | DIR Baseline | Texas A&M System Required By | TAMUS Baseline | Org/Info System Control |\n"
+markdown_table += "|:-------|:-----------:|:-----------:|:------------:|:------------:|:------------:|\n"
 
 for control in filtered_controls:
     if ('group' in control):
         markdown_table += f"| <heading>{control['group']}</heading> |||||\n"
     else:
-        markdown_table += f"| {control['title']} | {control['tx_required_by']} | {control['tamus_required_by']} | {control['implementation']} | {control['tx_baseline']} |\n"
+        markdown_table += f"| {control['title']} | {control['tx_required_by']} | {control['tx_baseline']} | {control['tamus_required_by']} | {control['tamus_baseline']} | {control['implementation']} |\n"
 
 # Output the Markdown table
 f = open("%s/required-controls.md" % (catalog_dir), "w")
@@ -128,7 +129,7 @@ f.write("title: Required Security Control Standards\n")
 f.write("sidebar_position: 2\n")
 f.write("---\n\n")
 
-f.write(":::note\n\nShaded box denotes a new requirement since the last release.\n\n:::\n\n")
+f.write(":::note\n\nYellow shaded box denotes a new requirement since the last release.\n\n:::\n\n")
 
 f.write(markdown_table)
 

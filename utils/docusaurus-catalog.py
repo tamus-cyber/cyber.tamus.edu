@@ -202,6 +202,9 @@ def process_control(control, odp, labels, f):
 
             props.append(["Contributes to Assurance", answer])
 
+        if (prop.get('name') == "tx_required_by"):
+            props.append(["Texas DIR Required By", prop.get('value', '')])
+
         if (prop.get('name') == "tx_baseline"):
             props.append(["Texas DIR Baseline", prop.get('value', '')])
 
@@ -213,14 +216,11 @@ def process_control(control, odp, labels, f):
 
             props.append(["Texas DIR Privacy Baseline", answer])
 
-        if (prop.get('name') == "tamus_baseline"):
-            props.append(["Texas A&M System Baseline", prop.get('value', '')])
-
-        if (prop.get('name') == "tx_required_by"):
-            props.append(["Texas DIR Required By", prop.get('value', '')])
-
         if (prop.get('name') == "tamus_required_by"):
             props.append(["Texas A&M System Required By", prop.get('value', '')])
+
+        if (prop.get('name') == "tamus_baseline"):
+            props.append(["Texas A&M System Baseline", prop.get('value', '')])
 
         if (prop.get('name') == "status" and prop.get('value') == "withdrawn"):
             withdrawn = True
