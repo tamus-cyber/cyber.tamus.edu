@@ -81,6 +81,7 @@ const config = {
     ({
       // Replace with your project's social card
       //image: 'img/docusaurus-social-card.jpg',
+      /*
       announcementBar: {
         id: 'dev_site',
         content:
@@ -88,6 +89,7 @@ const config = {
         backgroundColor: '#ff0000',
         textColor: '#ffffff',
       },
+      */
       navbar: {
         //title: 'Cybersecurity Standards',
         logo: {
