@@ -1,0 +1,73 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+# Texas A&M University System Member websites to which this security.txt file may apply
+
+Canonical: https://cyber.tamus.edu/.well-known/security.txt
+Canonical: https://agrilife.org/.well-known/security.txt
+Canonical: https://agrilife.tamu.edu/.well-known/security.txt
+Canonical: https://rellis.tamus.edu/.well-known/security.txt
+Canonical: https://tdem.texas.gov/.well-known/security.txt
+Canonical: https://tees.tamu.edu/.well-known/security.txt
+Canonical: https://teex.org/.well-known/security.txt
+Canonical: https://tfsweb.tamu.edu/.well-known/security.txt
+Canonical: https://tti.tamu.edu/.well-known/security.txt
+Canonical: https://tvmdl.tamu.edu/.well-known/security.txt
+Canonical: https://www.tamus.edu/.well-known/security.txt
+Canonical: https://www.etamu.edu/.well-known/security.txt
+Canonical: https://www.pvamu.edu/.well-known/security.txt
+Canonical: https://www.tamiu.edu/.well-known/security.txt
+Canonical: https://www.tamu.edu/.well-known/security.txt
+Canonical: https://www.tamuc.edu/.well-known/security.txt
+Canonical: https://www.tamucc.edu/.well-known/security.txt
+Canonical: https://www.tamuct.edu/.well-known/security.txt
+Canonical: https://www.tamug.edu/.well-known/security.txt
+Canonical: https://www.tamuk.edu/.well-known/security.txt
+Canonical: https://www.tamusa.edu/.well-known/security.txt
+Canonical: https://www.tamut.edu/.well-known/security.txt
+Canonical: https://www.wtamu.edu/.well-known/security.txt
+
+# Contact information for TAMUS Cyber Operations
+
+Contact: mailto:contact@cyber.tamus.edu
+Contact: tel:+1-979-234-0030
+Contact: https://cyber.tamus.edu/contact
+
+# PGP encryption key for TAMUS Cyber Operations
+
+Encryption: https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8be54e1c1d48434f4a551879ff77468c9561479d
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/8BE54E1C1D48434F4A551879FF77468C9561479D
+Encryption: openpgp4fpr:8be54e1c1d48434f4a551879ff77468c9561479d
+
+# Expiration date for the content of the security.txt file
+
+Expires: 2025-09-01T12:00:00Z
+
+# Hiring opportunities for The Texas A&M University System
+
+Hiring: https://apps1.system.tamus.edu/JobSearch/
+
+# Location of the vulnerability disclosure policy
+
+Policy: https://cyber.tamus.edu/vuln-report/
+
+# Preferred language for reporting vulnerabilities
+
+Preferred-Languages: en
+-----BEGIN PGP SIGNATURE-----
+
+iQJMBAEBCAA2FiEEi+VOHB1IQ09KVRh5/3dGjJVhR50FAmc2PtMYHGNvbnRhY3RA
+Y3liZXIudGFtdXMuZWR1AAoJEP93RoyVYUedNv8P/2yAf49EdLwPQ2vKHaI42AgT
+smzHdRSu6pvONe8KxcfbjD5U6Lvrl91lRiplqfQ9Nyzx91lbLOxk4p/CN1qw/jf8
+9V9TM9MeYYYRQhyuWW5qV3ySU+A9nk8QQhaLRCCeODnikxyOnBqy1yWl16Yk/BcN
+YvA7ACqmRV/TmNa0U64tkUln4JnHZXFmPtzwxUZ6hV6Ih8G8pSEEgtB7VgR63tJy
+dlJAUDYIcT3xNzxJxQWvP/7PsfPsoyaWD1JrihbwuWJ5y0UkFqYLDo6Fg/BmJoaG
+QdJbO2d1gccInNv85w/9GmcyuBeqS1jtYb7CyjhqC6dFajmThWgz+cZof2Dso57N
+akTpCrjyXkjG7a0dpsRioBh/j45bW2IDmwhKNVrIz78o1Gt2IEkmtlDazRrNU0rs
+nq99A3nw2Io2AJrfoOLthhs9h7F3kFlezD3/NR0WyvfBoaS3AuzWwi6ywXQcqYYK
+wm//EWUqadKlhY9qkGg4GPfzYXiVBiSqAAuZkB3yI3eEfUR802NMWhNQMAsqPqTj
+MvNsgLQZ75OtU7nmIl/8JHPf3yh5cLTgpk8iRLf0dPMyqRO03dme/mHJH9Vbvgmd
+Z7v488Bppn1HsnUQR4juaSPKAJjr4VnX3+ahR7sUbn8KBkQy+k4720oXrZC1pzjZ
+hIspvi3edoPAJtwg7Xpy
+=OBWY
+-----END PGP SIGNATURE-----

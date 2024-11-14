@@ -1,0 +1,53 @@
+# Texas A&M University System Member websites to which this security.txt file may apply
+
+Canonical: https://cyber.tamus.edu/.well-known/security.txt
+Canonical: https://agrilife.org/.well-known/security.txt
+Canonical: https://agrilife.tamu.edu/.well-known/security.txt
+Canonical: https://rellis.tamus.edu/.well-known/security.txt
+Canonical: https://tdem.texas.gov/.well-known/security.txt
+Canonical: https://tees.tamu.edu/.well-known/security.txt
+Canonical: https://teex.org/.well-known/security.txt
+Canonical: https://tfsweb.tamu.edu/.well-known/security.txt
+Canonical: https://tti.tamu.edu/.well-known/security.txt
+Canonical: https://tvmdl.tamu.edu/.well-known/security.txt
+Canonical: https://www.tamus.edu/.well-known/security.txt
+Canonical: https://www.etamu.edu/.well-known/security.txt
+Canonical: https://www.pvamu.edu/.well-known/security.txt
+Canonical: https://www.tamiu.edu/.well-known/security.txt
+Canonical: https://www.tamu.edu/.well-known/security.txt
+Canonical: https://www.tamuc.edu/.well-known/security.txt
+Canonical: https://www.tamucc.edu/.well-known/security.txt
+Canonical: https://www.tamuct.edu/.well-known/security.txt
+Canonical: https://www.tamug.edu/.well-known/security.txt
+Canonical: https://www.tamuk.edu/.well-known/security.txt
+Canonical: https://www.tamusa.edu/.well-known/security.txt
+Canonical: https://www.tamut.edu/.well-known/security.txt
+Canonical: https://www.wtamu.edu/.well-known/security.txt
+
+# Contact information for TAMUS Cyber Operations
+
+Contact: mailto:contact@cyber.tamus.edu
+Contact: tel:+1-979-234-0030
+Contact: https://cyber.tamus.edu/contact
+
+# PGP encryption key for TAMUS Cyber Operations
+
+Encryption: https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8be54e1c1d48434f4a551879ff77468c9561479d
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/8BE54E1C1D48434F4A551879FF77468C9561479D
+Encryption: openpgp4fpr:8be54e1c1d48434f4a551879ff77468c9561479d
+
+# Expiration date for the content of the security.txt file
+
+Expires: 2025-09-01T12:00:00Z
+
+# Hiring opportunities for The Texas A&M University System
+
+Hiring: https://apps1.system.tamus.edu/JobSearch/
+
+# Location of the vulnerability disclosure policy
+
+Policy: https://cyber.tamus.edu/vuln-report/
+
+# Preferred language for reporting vulnerabilities
+
+Preferred-Languages: en
