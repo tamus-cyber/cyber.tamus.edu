@@ -25,6 +25,7 @@ Canonical: https://www.tamug.edu/.well-known/security.txt
 Canonical: https://www.tamuk.edu/.well-known/security.txt
 Canonical: https://www.tamusa.edu/.well-known/security.txt
 Canonical: https://www.tamut.edu/.well-known/security.txt
+Canonical: https://www.tarleton.edu/.well-known/security.txt
 Canonical: https://www.wtamu.edu/.well-known/security.txt
 
 # Contact information for TAMUS Cyber Operations
@@ -56,18 +57,18 @@ Policy: https://cyber.tamus.edu/vuln-report/
 Preferred-Languages: en
 -----BEGIN PGP SIGNATURE-----
 
-iQJMBAEBCAA2FiEEi+VOHB1IQ09KVRh5/3dGjJVhR50FAmc2PtMYHGNvbnRhY3RA
-Y3liZXIudGFtdXMuZWR1AAoJEP93RoyVYUedNv8P/2yAf49EdLwPQ2vKHaI42AgT
-smzHdRSu6pvONe8KxcfbjD5U6Lvrl91lRiplqfQ9Nyzx91lbLOxk4p/CN1qw/jf8
-9V9TM9MeYYYRQhyuWW5qV3ySU+A9nk8QQhaLRCCeODnikxyOnBqy1yWl16Yk/BcN
-YvA7ACqmRV/TmNa0U64tkUln4JnHZXFmPtzwxUZ6hV6Ih8G8pSEEgtB7VgR63tJy
-dlJAUDYIcT3xNzxJxQWvP/7PsfPsoyaWD1JrihbwuWJ5y0UkFqYLDo6Fg/BmJoaG
-QdJbO2d1gccInNv85w/9GmcyuBeqS1jtYb7CyjhqC6dFajmThWgz+cZof2Dso57N
-akTpCrjyXkjG7a0dpsRioBh/j45bW2IDmwhKNVrIz78o1Gt2IEkmtlDazRrNU0rs
-nq99A3nw2Io2AJrfoOLthhs9h7F3kFlezD3/NR0WyvfBoaS3AuzWwi6ywXQcqYYK
-wm//EWUqadKlhY9qkGg4GPfzYXiVBiSqAAuZkB3yI3eEfUR802NMWhNQMAsqPqTj
-MvNsgLQZ75OtU7nmIl/8JHPf3yh5cLTgpk8iRLf0dPMyqRO03dme/mHJH9Vbvgmd
-Z7v488Bppn1HsnUQR4juaSPKAJjr4VnX3+ahR7sUbn8KBkQy+k4720oXrZC1pzjZ
-hIspvi3edoPAJtwg7Xpy
-=OBWY
+iQJMBAEBCAA2FiEEi+VOHB1IQ09KVRh5/3dGjJVhR50FAmc2QckYHGNvbnRhY3RA
+Y3liZXIudGFtdXMuZWR1AAoJEP93RoyVYUedLH4P/jQovEOa/ItEqUlZJ2Lc9eUb
+IGqQ2ZhOSynJ6s+yxoyqqiVz3wvHfycIkTebxnboVHczRKh6vPiIifv7G2UDyMKV
+hsdeGBGtqZXN8FJT29gnMUkdi12ZY85gFiEHVF6ZGvGY+rRhJkOdLFWDFQxxtHnx
+p6+2oiO1sYcmChOh0WD0t8tOckED7zc35KzMXQhrdZ7U00JTjb1Y6Cy+peRbA8Hr
+hBdcWo3U2LT2P7OdMA53nsrjzgEiQvUayxnbipKECdP7hu67p0oANvEF1+FUd4lD
+o670HuiXrW+T0XqyIfHHryIm7yvI+5mR/z0QdTsSCOrF9p02sZ+YD42BbUW7dIv3
+r+i1YIDB+i04T1BWt93q1fb3Efnldw564Dw+oiNhcnkvRW2omIb1EQx+gTrHacVW
+ZhYg7T7HuYDuvws9qw7PeCVzTI0ABpkXwCOdo8MIiRMo6Yz5XFMwBAOj4jrYWJKm
+R/yzGS8btsC9iWxRAHk5oqE29dMb9AOUf47G8PfVOH8dhU7GBfChV8Gm0oy+9vH9
+pNruguiLfSCqpljfeTrfZllDuzC2y9RuwFlhWa4X3f7BpD7DAr5r9sIM+1txQXH2
+37Pu7cm41qVV3bVnGeaXiRiIwvuaHiwNz2l99yMCtGQ/GZfuNLWCIvIQur48JMPk
+btbg+/+8Id6hJ3Pljm7y
+=XkSj
 -----END PGP SIGNATURE-----
