@@ -60,11 +60,11 @@ Members are directed to implement any necessary administrative, operational or t
 
 1.6. Members must implement the removal and prohibition of any covered applications and prohibited technology listed on the DIR website at https://dir.texas.gov/information-security/prohibited-technologies, including any future additions or removals to the list.
 
-1.7. Members may provide a separate logical or physical network for access to prohibited technologyies with the approval of the member chief executive officer.
+1.7. Members may provide a separate logical or physical network for access to prohibited technologies with the approval of the member chief executive officer.
 
 **2. MANAGING PERSONAL DEVICES**
 
-2.1. Member employees and contractors are prohibited from installing or operating covered applications and prohibited applications or technologyies on any personal devices that are used to conduct state business.
+2.1. Member employees and contractors are prohibited from installing or operating covered applications and prohibited applications or technologies on any personal devices that are used to conduct state business.
 
 2.2. Members must include the employee/contractor/user provisions of this plan in their rules of behavior and require all employees, contractors and users of member-owned networks to acknowledge the rules of behavior as part of their annual security awareness training.
 
