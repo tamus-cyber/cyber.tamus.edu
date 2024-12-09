@@ -8,19 +8,19 @@ title: Prohibited Technology
 
 ## Background
 
-On December 7, 2022, Governor Greg Abbott issued a directive requiring all state agencies to ban the video-sharing application TikTok from all state-owned and state-issued devices and networks over the Chinese Communist Party’s ability to use the application for surveilling Texans.  Governor Abbott also directed the Texas Department of Public Safety (DPS) and the Texas Department of Information Resources (DIR) to develop a plan providing state agencies guidance on managing personal devices used to conduct state business.  Following the issuance of the Governor’s directive, the 88th Texas Legislature passed Senate Bill 1893, which prohibits the use of covered applications on governmental entity devices.
+On December 7, 2022, Governor Greg Abbott issued a directive requiring all state agencies to ban the video-sharing application TikTok from all state-owned and state-issued devices and networks over the Chinese Communist Party’s ability to use the application for surveilling Texans.  Governor Abbott also directed the Texas Department of Public Safety (DPS) and the Texas Department of Information Resources (DIR) to develop a plan providing state agencies guidance on managing personal devices used to conduct state business.  Following the issuance of the Governor’s directive, the 88th Texas Legislature passed Senate Bill 1893[^1], which prohibits the use of covered applications on governmental entity devices.
 
 ## Guidance Statement
 
-The guidance issued by DPS and DIR requires The Texas A&M University System (**“system”**) to remove covered applications and prohibited technologies which are on the DIR prohibited technology list (**“Prohibited Technology”**) from state-owned and state-issued devices and block access to prohibited technologies from state-owned networks.  
+The guidance issued by DPS and DIR requires The Texas A&M University System (**“system”**) to remove covered applications and prohibited technology which are on the DIR prohibited technology list[^2] (**“Prohibited Technology”**) from state-owned and state-issued devices and block access to prohibited technology from state-owned networks.  
 
-This plan is adopted under the authority of System Policy 29.01, _Information Resources_[^2], and applies to all system employees, contractors, and users of system member networks.  All system employees, contractors, and users are responsible for complying with this plan.  In this plan, **“prohibit”** is to not allow by policy and **“prevent”** is to have a technical control in place unless an exception exists.
+**Covered applications** are defined as (1) the social media service TikTok or any successor application or service developed or provided by ByteDance Limited, or an entity owned by ByteDance Limited, and (2) social media applications or services specified by proclamation of the governor under Tex. Gov’t Code § 620.005[^3]. **Prohibited technology** is any other hardware or software prohibited by DIR from use on state-owned and state-issued devices.
+
+This plan is adopted under the authority of System Policy 29.01, _Information Resources_[^4], and applies to all system employees, contractors, and users of system member networks.  All system employees, contractors, and users are responsible for complying with this plan.  In this plan, **“prohibit”** is to not allow by policy and **“prevent”** is to have a technical control in place unless an exception exists.
 
 ## Exceptions
 
-All exceptions to this plan are treated as high residual risk decisions as defined in 1 Tex. Admin. Code § 202.75(4)(B)[^3] and must be approved by the institution of higher education head and reported to DIR using established member procedures for processing exceptions.  This authority may not be delegated.  
-
-Covered applications are defined as (1) the social media service TikTok or any successor application or service developed or provided by ByteDance Limited, or an entity owned by ByteDance Limited, and (2) social media applications or services specified by proclamation of the governor under Tex. Gov’t Code § 620.005[^4].
+All exceptions to this plan are treated as high residual risk decisions as defined in 1 Tex. Admin. Code § 202.75(4)(B)[^5] and must be approved by the institution of higher education head and reported to DIR using established member procedures for processing exceptions.  This authority may not be delegated.  
 
 Exceptions to **covered applications** are limited to the following categories:
 
@@ -60,7 +60,7 @@ Members are directed to implement any necessary administrative, operational or t
 
 1.6. Members must implement the removal and prohibition of any covered applications and prohibited technology listed on the DIR website at https://dir.texas.gov/information-security/prohibited-technologies, including any future additions or removals to the list.
 
-1.7. Members may provide a separate logical or physical network for access to prohibited technologyies with the approval of the member chief executive officer.
+1.7. Members may provide a separate logical or physical network for access to prohibited technology with the approval of the member chief executive officer.
 
 **2. MANAGING PERSONAL DEVICES**
 
@@ -79,6 +79,7 @@ Members are directed to implement any necessary administrative, operational or t
 3.4. Visitors granted access to sensitive locations are subject to the same limitations as employees and contractors on prohibited technology-enabled devices when entering sensitive locations.
 
 [^1]: [Tex. S.B. 1893, 88th Leg., R.S. (2023)](https://capitol.texas.gov/tlodocs/88R/billtext/html/SB01893F.htm)
-[^2]: [System Policy 29.01, Information Resources](https://policies.tamus.edu/29-01.pdf)
-[^3]: [1 Texas Administrative Code § 202.75](https://texreg.sos.state.tx.us/public/readtac$ext.TacPage?sl=R&app=9&p_dir=&p_rloc=&p_tloc=&p_ploc=&pg=1&p_tac=&ti=1&pt=10&ch=202&rl=75)
-[^4]: [Texas Government Code § 620.005](https://statutes.capitol.texas.gov/Docs/GV/htm/GV.620.htm#620.005)
+[^2]: [Covered Applications and Prohibited Technologies, Texas Department of Information Resources](https://dir.texas.gov/information-security/covered-applications-and-prohibited-technologies)
+[^3]: [Texas Government Code § 620.005](https://statutes.capitol.texas.gov/Docs/GV/htm/GV.620.htm#620.005)
+[^4]: [System Policy 29.01, Information Resources](https://policies.tamus.edu/29-01.pdf)
+[^5]: [1 Texas Administrative Code § 202.75](https://texreg.sos.state.tx.us/public/readtac$ext.TacPage?sl=R&app=9&p_dir=&p_rloc=&p_tloc=&p_ploc=&pg=1&p_tac=&ti=1&pt=10&ch=202&rl=75)
