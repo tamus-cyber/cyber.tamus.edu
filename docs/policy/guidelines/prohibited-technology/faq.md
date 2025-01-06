@@ -89,7 +89,7 @@ title: Prohibited Technology FAQs
 </details>
 
 <details>
-	<summary>I’m an employee, and I have a prohibited technology on my personal mobile device. May I continue to check my A&M System-member email, access VPN, log on to Workday, Banner, Concur, or other A&M System applications from this device?</summary>
+	<summary>I’m an employee, and I have a prohibited technology on my personal mobile device. May I continue to check my A&M System member email, access VPN, log on to Workday, Banner, Concur, or other A&M System applications from this device?</summary>
 
 	No. Having prohibited technology on your personal device while conducting state business is prohibited. You need to remove the prohibited technology before continuing to use this device for state business. If you are required to conduct state business on this device and cannot or will not remove the prohibited technology, you should consult with your supervisor about what device(s) may be made available for performing your duties.
 </details>
@@ -113,9 +113,9 @@ title: Prohibited Technology FAQs
 </details>
 
 <details>
-	<summary>I’m an employee of the university using my personal cell phone to text or call my coworkers about non-confidential work-related items. Is this allowed?</summary>
+	<summary>I’m an employee using my personal cell phone to text or call my coworkers about non-confidential work-related items. Is this allowed?</summary>
 
-	Yes, you are allowed to use your personal device to call or text your coworkers to conduct university business if you are not transmitting sensitive or confidential information.
+	Yes, you are allowed to use your personal device to call or text your coworkers to conduct state business if you are not transmitting sensitive or confidential information.
 </details>
 
 <details>
@@ -127,7 +127,7 @@ title: Prohibited Technology FAQs
 </details>
 
 <details>
-	<summary>I use my personal device to check my TXST email. Does it have to be enrolled in my institution's device management software?</summary>
+	<summary>I use my personal device to check my A&M System member email. Does it have to be enrolled in my institution's device management software?</summary>
 
 	No. Device management only applies to institution-owned devices.
 </details>
