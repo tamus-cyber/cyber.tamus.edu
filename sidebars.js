@@ -35,13 +35,13 @@ const sidebars = {
     },
     {
       type: 'link',
-      label: 'FIPS 199 Impact Table',
-      href: 'https://doi.org/10.6028/NIST.FIPS.199',
+      label: 'Impact Calculator',
+      href: '/policy/resources/impact-calculator',
     },
     {
       type: 'link',
-      label: 'Impact Calculator',
-      href: 'https://it.tamu.edu/community/tools/impact-calculator.php',
+      label: 'FIPS 199 Impact Table',
+      href: 'https://doi.org/10.6028/NIST.FIPS.199',
     },
     {
       type: 'link',
