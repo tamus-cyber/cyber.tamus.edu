@@ -2,6 +2,12 @@
 title: Artificial Intelligence
 ---
 
+:::info
+
+System Regulation 29.01.05, _Artificial Intelligence_, was released on December 10, 2024. This regulation applies to all AI-related activities, including education, administrative functions, and student use within the system and all members. The guidelines below are in revision to align with changes effected by the release of this regulation. Where conflicts exist, the regulation takes precedence.
+
+:::
+
 ## Introduction
 
 In the 2023 Texas legislative session, House Bill 2060 created an artificial intelligence advisory council to deal with the emerging technology and processes surrounding artificial intelligence.  As defined by the Bill, artificial intelligence systems are defined as those generative "systems that are capable of:
@@ -40,10 +46,6 @@ Because of the inscrutability of AI systems in general, it is important to under
 * Designers, developers and personnel involved in the deployment of AI systems should take proactive and continuous measures to protect individuals from algorithmic bias or discrimination, whether intentional or not.
 * AI platforms should not be used to create material that are based on, use or incorporate non-public internal information, including without limitation, unpublished research, legal analysis or advice, recruitment of employees, and personnel or disciplinary decision-making processes.
 * Where possible, members should configure security protection technologies (such as firewalls, endpoint protection, and email security gateways) to prevent communication with such technologies on all member technology infrastructure and in communication with external (such as cloud) infrastructure or subscriptions if they have not been inventoried and cleared for use.
-
-## Confidential Information
-
-* AI platforms are not approved for processing confidential information and therefore must not have any personally identifying, sensitive personal, regulated, confidential, proprietary, or controlled unclassified information submitted or exposed to it.
 
 [^1]: [NIST AI 100-1, Artificial Intelligence Risk Management Framework (AI RMF 1.0), January 2023](https://doi.org/10.6028/NIST.AI.100-1).
 [^2]: [Texas A&M University System Data Categorization Standard](/policy/guidelines/data-categorization).
