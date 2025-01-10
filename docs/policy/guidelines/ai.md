@@ -4,7 +4,7 @@ title: Artificial Intelligence
 
 :::info
 
-System Regulation 29.01.05, _Artificial Intelligence_, was released on December 10, 2024. This regulation applies to all AI-related activities, including education, administrative functions, and student use within the system and all members. The guidelines below are in revision to align with changes effected by the release of this regulation. Where conflicts exist, the regulation takes precedence.
+[System Regulation 29.01.05, _Artificial Intelligence_](http://policies.tamus.edu/29-01-05.pdf), was released on December 10, 2024. This regulation applies to all AI-related activities, including education, administrative functions, and student use within the system and all members. The guidelines below are in revision to align with changes effected by the release of this regulation. Where conflicts exist, the regulation takes precedence.
 
 :::
 
@@ -40,12 +40,13 @@ Because of the inscrutability of AI systems in general, it is important to under
 
 * Members should inventory, identify, track and control all systems which have AI or AI-like capabilities.
 * Members should classify information being input into and coming out from such systems.  Refer to the Texas A&M System data categorization standard [^2] for further guidance.
-* Members should update their respective acceptable use policies to reflect allowable and acceptable uses of AI platforms, services and processes.
+* Members should update their respective acceptable use policies to reflect allowable and acceptable uses of AI platforms, services and processes, consistent with System Regulation 29.01.05. [^3]
 * Teams that are involved in the design, development and implementation of automated systems that employ AI and AI-like capabilities should provide: (1) plain language notifications and clear descriptions of the overall system functions and the role that automation will play; (2) notice that such system capabilities are in use and the individual or organization responsible for the system, and (3) an explanation of outcomes that are clear, timely and accessible.
 * Members should conduct a bias or reasonableness audit of all platforms with significant AI in use to identify and understand any bias the model in use has and plan accordingly in its use.
 * Designers, developers and personnel involved in the deployment of AI systems should take proactive and continuous measures to protect individuals from algorithmic bias or discrimination, whether intentional or not.
-* AI platforms should not be used to create material that are based on, use or incorporate non-public internal information, including without limitation, unpublished research, legal analysis or advice, recruitment of employees, and personnel or disciplinary decision-making processes.
-* Where possible, members should configure security protection technologies (such as firewalls, endpoint protection, and email security gateways) to prevent communication with such technologies on all member technology infrastructure and in communication with external (such as cloud) infrastructure or subscriptions if they have not been inventoried and cleared for use.
+* Public AI platforms should not be used to create material that are based on, use or incorporate non-public internal information, including without limitation, unpublished research, legal analysis or advice, recruitment of employees, and personnel or disciplinary decision-making processes.  Only use AI platforms that have a contractual agreement in place with the Texas A&M System and technical controls to protect data shared with or processed by the AI platform.
+
 
 [^1]: [NIST AI 100-1, Artificial Intelligence Risk Management Framework (AI RMF 1.0), January 2023](https://doi.org/10.6028/NIST.AI.100-1).
 [^2]: [Texas A&M University System Data Categorization Standard](/policy/guidelines/data-categorization).
+[^3]: [System Regulation 29.01.05, _Artificial Intelligence_](http://policies.tamus.edu/29-01-05.pdf).
