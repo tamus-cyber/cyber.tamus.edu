@@ -135,6 +135,10 @@ const config = {
                 label: 'Contact Us',
               },
               {
+                href: 'https://public.govdelivery.com/accounts/TXAMUSCS/signup/44174',
+                label: 'Subscribe to Updates',
+              },
+              {
                 to: '/vuln-report/',
                 label: 'Report a Vulnerability',
               }],
