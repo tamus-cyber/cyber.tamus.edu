@@ -135,7 +135,7 @@ const config = {
                 label: 'Contact Us',
               },
               {
-                href: 'https://public.govdelivery.com/accounts/TXAMUSCS/signup/44174',
+                href: 'https://public.govdelivery.com/accounts/TXAMUSCS/subscriber/new',
                 label: 'Subscribe to Updates',
               },
               {
