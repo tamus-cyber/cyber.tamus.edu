@@ -23,11 +23,9 @@ title: Prohibited Technology FAQs
 <details>
 	<summary>What technologies are prohibited?</summary>
 
-	DIR maintains a list of Prohibited Technologies, including software, applications, developers, hardware, equipment, and manufacturers, as well as technologies from any subsidiary or affiliate of an entity on DIR’s list (e.g., a software studio or child company partially owned by a listed entity). 
+	DIR maintains a list of Prohibited Technologies and Covered Applications, including software, applications, developers, hardware, equipment, and manufacturers, as well as technologies from any subsidiary or affiliate of an entity on DIR’s list (e.g., a software studio or child company partially owned by a listed entity). 
 
-	The list is available here: https://dir.texas.gov/information-security/prohibited-technologies
-
-	Covered Applications are identified by proclamation of the Governor. Presently the only technologies identified as Covered Applications are TikTok and other services from TikTok’s parent company, ByteDance Ltd.
+	More information regarding Prohibited Technologies and Covered Applications can be found on the [DIR Covered Applications and Prohibited Technologies webpage](https://dir.texas.gov/information-security/prohibited-technologies).
 </details>
 
 <details>
