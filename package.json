@@ -18,6 +18,7 @@
     "@docusaurus/plugin-client-redirects": "^3.5.2",
     "@docusaurus/preset-classic": "^3.5.2",
     "@mdx-js/react": "^3.1.0",
+    "caniuse-lite": "^1.0.30001700",
     "clsx": "^2.1.1",
     "docusaurus-lunr-search": "^3.5.0",
     "lunr": "^2.3.9",
