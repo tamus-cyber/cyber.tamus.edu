@@ -26,3 +26,15 @@ Fingerprint: `8BE5 4E1C 1D48 434F 4A55  1879 FF77 468C 9561 479D`
 TAMUS Cybersecurity<br />
 1370 TAMU<br />
 College Station, Texas 77843-1370
+
+## Reporting Quick Links
+
+### For TAMUS Members
+
+<a class="button button--primary button--lg" href="https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/117/create/598">Submit an Incident Notification Report</a>
+<br />
+<br />
+
+### For the Public
+
+<a class="button button--primary button--lg" href="https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/116/create/596">Submit a Vulnerability Report</a>

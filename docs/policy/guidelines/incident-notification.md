@@ -2,6 +2,10 @@
 title: Incident Notification
 ---
 
+<a class="button button--primary button--lg" href="https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/117/create/598">Submit an Incident Notification Report</a>
+
+<br /><br /><br />
+
 :::note[These guidelines are effective March 1, 2025.]
 
 :::
@@ -66,7 +70,7 @@ The information elements described in steps 1-8 below are required when initiall
 
 1. Estimate the scope of time and resources needed to [recover](#impact-category-descriptions) from the incident
 
-Submit the notification to Texas A&M System Cybersecurity via the [Incident Reporting Form](https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/117/create/598). 
+Submit the notification to Texas A&M System Cybersecurity via the [Incident Notification Reporting Form](https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/117/create/598). 
 
 Any threat indicators, including signatures, IPs, emails, domains, etc. developed in relationship to the incident may be provided by replying to the acknowledgement email you receive after submitting the Incident Reporting Form. Any confidential information may be encrypted via [PGP/GPG key](https://cyber.tamus.edu/contact/) before submission.
 
@@ -86,7 +90,7 @@ The table below defines each impact category description and its associated seve
 
 ## Reporting Contact Information
 
-* [Incident Reporting Form](https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/117/create/598)
+* [Incident Notification Reporting Form](https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/117/create/598)
 
 * Supplemental Info / Indicator of Compromise Details: [contact@cyber.tamus.edu](mailto:contact@cyber.tamus.edu) ([PGP/GPG Key for Encrypted Email](https://cyber.tamus.edu/contact/))
 
