@@ -144,11 +144,6 @@ const config = {
               }],
           },
           {
-            href: 'https://portal.cyber.tamus.edu/',
-            label: 'ISAO Portal',
-            position: 'left',
-          },
-          {
             href: 'https://github.com/tamus-cyber/cyber.tamus.edu/',
             label: 'GitHub',
             position: 'right',
