@@ -40,7 +40,7 @@ Members are directed to implement any necessary administrative, operational or t
 
 **1. MANAGING MEMBER-OWNED DEVICES AND NETWORKS**
 
-1.1. Except where approved exceptions apply, members must prohibit the use or download of covered applications and prohibited technologyies on all member-owned devices, including mobile phones, tablets, desktop and laptop computers, and other internet capable devices.
+1.1. Except where approved exceptions apply, members must prohibit the use or download of covered applications and prohibited technologies on all member-owned devices, including mobile phones, tablets, desktop and laptop computers, and other internet capable devices.
 
 1.2. Members must identify, track, and control and manage member-owned devices to prevent prohibit the installation of or access to all covered applications and prohibited applications.
 
@@ -64,7 +64,7 @@ Members are directed to implement any necessary administrative, operational or t
 
 **2. MANAGING PERSONAL DEVICES**
 
-2.1. Member employees and contractors are prohibited from installing or operating covered applications and prohibited applications or technologyies on any personal devices that are used to conduct state business.
+2.1. Member employees and contractors are prohibited from installing or operating covered applications and prohibited applications or technologies on any personal devices that are used to conduct state business.
 
 2.2. Members must include the employee/contractor/user provisions of this plan in their rules of behavior and require all employees, contractors and users of member-owned networks to acknowledge the rules of behavior as part of their annual security awareness training.
 
