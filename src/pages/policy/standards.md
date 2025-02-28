@@ -1,11 +1,10 @@
 ---
-title:              Regulations & Standards
+title:	Regulations & Standards
 ---
 
 # Regulations & Standards
 
-<br />
-
+  \
 <h2>Texas A&M System Cybersecurity Regulations and Standards</h2>
 
 These regulations and standards provide system members with guidance that enhances State-level requirements and system policy for implementing information security.
@@ -17,8 +16,7 @@ These regulations and standards provide system members with guidance that enhanc
 | Standard | [Texas A&M System Security Control Standards Catalog](/catalog/) |
 | Standard | [Online Privacy Standard](/policy/resources/privacy-standard/) |
 
-<br />
-
+  \
 <h2>System Offices Cybersecurity Rules, Standards and Procedures</h2>
 
 These rules, standards and procedures guide the Texas A&M System Offices in delivering information security and compliance activities. 

@@ -1,5 +1,5 @@
 ---
-title:		Public Vulnerability Disclosure Program
+title:	Public Vulnerability Disclosure Program
 ---
 
 # Report a Vulnerability
