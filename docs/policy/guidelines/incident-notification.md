@@ -96,7 +96,7 @@ The table below defines each impact category description and its associated seve
 
 * Cyber Operations Hotline: (979) 234-0030 Opt. 3
 
-[^1]: [Title 1 Texas Administrative Code § 202.76, Security Control Standards Catalog](https://www.sos.texas.gov/tac/index.shtml).
+[^1]: [Title 1 Texas Administrative Code § 202.76, Security Control Standards Catalog](https://texas-sos.appianportalsgov.com/rules-and-meetings?$locale=en_US&interface=VIEW_TAC_SUMMARY&recordId=207719).
 [^2]: [NIST Special Publication 800-61 Rev 2, Computer Security Incident Handling Guide, August 2012](https://doi.org/10.6028/NIST.SP.800-61r2).
 [^3]: [Texas Business and Commerce Code § 521.002, Unauthorized Use of Identifying Information](https://statutes.capitol.texas.gov/Docs/BC/htm/BC.521.htm).
 [^4]: [Federal Information Processing Standard Publication 199, Standards for Security Categorization of Federal Information and Information Systems](https://doi.org/10.6028/NIST.FIPS.199).

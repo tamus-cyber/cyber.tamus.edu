@@ -2,7 +2,7 @@
 title: Glossary of Terms
 ---
 
-This glossary supplements the [NIST Computer Security Resource Center Glossary](https://csrc.nist.gov/glossary) and [Texas Administrative Code Section 202.1](https://texreg.sos.state.tx.us/public/readtac$ext.TacPage?sl=R&app=9&p_dir=&p_rloc=&p_tloc=&p_ploc=&pg=1&p_tac=&ti=1&pt=10&ch=202&rl=1).
+This glossary supplements the [NIST Computer Security Resource Center Glossary](https://csrc.nist.gov/glossary) and [Texas Administrative Code Section 202.1](https://texas-sos.appianportalsgov.com/rules-and-meetings?$locale=en_US&interface=VIEW_TAC_SUMMARY&recordId=215512).
 
 DIR
 : Texas Department of Information Resources

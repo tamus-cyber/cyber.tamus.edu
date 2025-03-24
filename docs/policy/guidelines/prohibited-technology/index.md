@@ -82,4 +82,4 @@ Members are directed to implement any necessary administrative, operational or t
 [^2]: [Covered Applications and Prohibited Technologies, Texas Department of Information Resources](https://dir.texas.gov/information-security/covered-applications-and-prohibited-technologies)
 [^3]: [Texas Government Code § 620.005](https://statutes.capitol.texas.gov/Docs/GV/htm/GV.620.htm#620.005)
 [^4]: [System Policy 29.01, Information Resources](https://policies.tamus.edu/29-01.pdf)
-[^5]: [1 Texas Administrative Code § 202.75](https://texreg.sos.state.tx.us/public/readtac$ext.TacPage?sl=R&app=9&p_dir=&p_rloc=&p_tloc=&p_ploc=&pg=1&p_tac=&ti=1&pt=10&ch=202&rl=75)
+[^5]: [1 Texas Administrative Code § 202.75](https://texas-sos.appianportalsgov.com/rules-and-meetings?$locale=en_US&interface=VIEW_TAC_SUMMARY&recordId=206717)

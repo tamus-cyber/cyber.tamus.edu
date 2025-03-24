@@ -22,7 +22,7 @@ When determining security controls to use for a given set of information, Inform
 
 Some classes of information may have attributes such as “mission critical” or “business critical”. These classes of information should be assessed for designation as high-impact information resources.
 
-[^1]: [Title 1 Texas Administrative Code § 202.74, Institution Information Security Program](https://www.sos.texas.gov/tac/index.shtml).
-[^2]: [Title 1 Texas Administrative Code § 202.1, Definitions](https://www.sos.texas.gov/tac/index.shtml).
+[^1]: [Title 1 Texas Administrative Code § 202.74, Institution Information Security Program](https://texas-sos.appianportalsgov.com/rules-and-meetings?$locale=en_US&interface=VIEW_TAC_SUMMARY&recordId=206716).
+[^2]: [Title 1 Texas Administrative Code § 202.1, Definitions](https://texas-sos.appianportalsgov.com/rules-and-meetings?$locale=en_US&interface=VIEW_TAC_SUMMARY&recordId=215512).
 [^3]: [Texas Government Code Ch. 552, Public Information](https://statutes.capitol.texas.gov/Docs/GV/htm/GV.552.htm).
 [^4]: [Federal Information Processing Standard Publication 199, Standards for Security Categorization of Federal Information and Information Systems](https://doi.org/10.6028/NIST.FIPS.199).
