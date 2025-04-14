@@ -29,6 +29,14 @@ In addition to the list of technologies prohibited by DIR, the Texas A&M System 
 * Hardware or software technology that record all the keystrokes entered into a keyboard or workstation.  This includes technology that functions as a keylogger even though it may be intended for a different purpose (e.g., Grammarly, etc.)[^4]
 * AI from third-party services that participates in online meetings to deliver transcription or summarization services may not be used for any meetings where non-public information, including information subject to disclosure under the Texas Public Information Act (Tex. Gov’t Code Ch. 552), is discussed[^5]
 
+## FAQs
+
+Texas A&M System Cybersecurity maintains a list of FAQs regarding covered applications and prohibited technologies:
+
+<p><a class="button button--primary button--lg" href="faq">View Frequently Asked Questions</a></p>
+
+
+
 [^1]: [Governor's Directive to State Agency Heads, Decembver 7, 2022](https://gov.texas.gov/news/post/governor-abbott-orders-aggressive-action-against-tiktok)
 [^2]: [Tex. S.B. 1893, 88th Leg., R.S. (2023)](https://capitol.texas.gov/tlodocs/88R/billtext/html/SB01893F.htm)
 [^3]: [Texas Government Code Chapter 620](https://statutes.capitol.texas.gov/Docs/GV/htm/GV.620.htm)
