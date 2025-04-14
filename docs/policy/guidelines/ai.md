@@ -4,7 +4,11 @@ title: Artificial Intelligence
 
 :::info
 
-[System Regulation 29.01.05, _Artificial Intelligence_](http://policies.tamus.edu/29-01-05.pdf), was released on December 10, 2024. This regulation applies to all AI-related activities, including education, administrative functions, and student use within the system and all members. The guidelines below are in revision to align with changes effected by the release of this regulation. Where conflicts exist, the regulation takes precedence.
+**[System Regulation 29.01.05, _Artificial Intelligence_](http://policies.tamus.edu/29-01-05.pdf)**, was released on December 10, 2024.
+
+This regulation applies to all AI-related activities, including education, administrative functions, and student use within the system and all members.
+
+The guidelines below are in revision to align with changes effected by the release of this regulation. Where conflicts exist, the regulation takes precedence.
 
 :::
 
