@@ -29,7 +29,7 @@ College Station, Texas 77843-1370
 
 ## Reporting Quick Links
 
-### For TAMUS Members
+### For TAMUS Member Information Security Professionals
 
 <a class="button button--primary button--lg" href="https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/117/create/598">Submit an Incident Notification Report</a>
 <br />
