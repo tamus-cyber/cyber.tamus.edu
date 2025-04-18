@@ -2,10 +2,6 @@
 title: Incident Notification
 ---
 
-<a class="button button--primary button--lg" href="https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/117/create/598">Submit an Incident Notification Report</a>
-
-<br /><br /><br />
-
 :::note[These guidelines are effective March 1, 2025.]
 
 :::
@@ -51,6 +47,8 @@ Notifications to affected third parties (e.g., vendors, partners) and affected i
 In some cases, it may not be feasible to have complete and validated information for [Submitting Incident Notifications](#submitting-incident-notifications) prior to reporting. System members should provide their best estimate at the time of notification and report updated information as it becomes available. Events that have been found by the reporting system member not to impact confidentiality, integrity or availability may be reported voluntarily.
 
 ## Submitting Incident Notifications
+
+<p><a class="button button--primary button--lg" href="https://tamus-cyber.atlassian.net/servicedesk/customer/portal/76/group/117/create/598">Submit an Incident Notification Report</a></p>
 
 The information elements described in steps 1-8 below are required when initially notifying Texas A&M System Cybersecurity of an incident:
 
